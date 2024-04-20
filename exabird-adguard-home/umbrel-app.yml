@@ -15,7 +15,7 @@ icon: https://example.com/path/to/icon.png
 id: exabird-adguard-home
 manifestVersion: 1
 name: AdGuard Home
-path: /adguard-home
+path: /
 port: 80
 releaseNotes: "Cette version corrige des bugs de s\xE9curit\xE9 et divers autres petits\
   \ probl\xE8mes, tout en ajoutant des am\xE9liorations de qualit\xE9 de vie."
