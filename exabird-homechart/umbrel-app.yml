@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Your Budgets, Calendars, Meals, Inventory, Tasks, and so much more in
+  one simple app.For everyone in your household.On all of your devices.In the cloud
+  or self-hosted
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://homechart.app/images/homechart.min.776793e5e4334866f0799e8a84b8448efb1b06cb2762b2bb20f99068ac36136c.png
+id: exabird-homechart
+manifestVersion: 1
+name: Homechart
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-homechart
+submission: https://github.com/exabird/umbrel-exabird-homechart
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-homechart/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

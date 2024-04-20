@@ -1,0 +1,14 @@
+services:
+  pixel-server:
+    image: macley/pixel-server:latest
+    ports:
+    - 85:80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/pixel-server/auth.cfg
+      container: /opt/pixel-server/auth.cfg
+    - bind: /portainer/Files/AppData/Config/pixel-server/pixelserver.cfg
+      container: /opt/pixel-server/pixelserver.cfg
+    - bind: /portainer/Files/AppData/Config/pixel-server/users.cfg
+      container: /opt/pixel-server/users.cfg
+    - container: /etc/crontabs/
+version: '3.3'

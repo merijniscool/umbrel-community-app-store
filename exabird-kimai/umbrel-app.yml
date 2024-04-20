@@ -1,0 +1,31 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Kimai](https://kimai.org/) is a professional grade time-tracking application,
+  free and open-source. It handles use-cases of freelancers as well as companies with
+  dozens or hundreds of users. Kimai was build to track your project times and ships
+  with many advanced features, including but not limited to: JSON API, invoicing,
+  data exports, multi-timer and punch-in punch-out mode, tagging, multi-user - multi-timezones
+  - multi-language ([over 30 translations existing](https://hosted.weblate.org/projects/kimai/)!),
+  authentication via SAML/LDAP/Database, two-factor authentication (2FA) with TOTP,
+  customizable role and team permissions, responsive design, user/customer/project
+  specific rates, advanced search & filtering, money and time budgets, advanced reporting,
+  support for [plugins](https://www.kimai.org/store/) and so much more.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kimai-logo.png
+id: exabird-kimai
+manifestVersion: 1
+name: Kimai
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-kimai
+submission: https://github.com/exabird/umbrel-exabird-kimai
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-kimai/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

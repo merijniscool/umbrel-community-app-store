@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Orca Slicer](https://github.com/SoftFever/OrcaSlicer) is an open source
+  slicer for FDM printers. OrcaSlicer is fork of Bambu Studio, it was previously known
+  as BambuStudio-SoftFever, Bambu Studio is forked from PrusaSlicer by Prusa Research,
+  which is from Slic3r by Alessandro Ranellucci and the RepRap community'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/orcaslicer-logo.png
+id: exabird-orcaslicer
+manifestVersion: 1
+name: Orcaslicer
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-orcaslicer
+submission: https://github.com/exabird/umbrel-exabird-orcaslicer
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-orcaslicer/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

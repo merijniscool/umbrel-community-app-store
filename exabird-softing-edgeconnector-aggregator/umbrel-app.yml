@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Offers a powerful OPC UA aggregation service which provides data via
+  OPC UA, as well as MQTT
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://example.com/path/to/default-icon.png
+id: exabird-softing-edgeconnector-aggregator
+manifestVersion: 1
+name: Softing EdgeConnector Aggregator
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-aggregator
+submission: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-aggregator
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-aggregator/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

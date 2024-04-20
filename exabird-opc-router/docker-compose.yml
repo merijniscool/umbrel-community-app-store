@@ -1,0 +1,12 @@
+services:
+  opc router:
+    image: opcrouter/runtime:latest
+    ports:
+    - 49429/tcp
+    - 8080/tcp
+    - 8081/tcp
+    volumes:
+    - container: /data/database
+    - container: /inray
+    - container: /var/log/opcrouter
+version: '3.3'

@@ -1,0 +1,9 @@
+services:
+  nginx:
+    image: linuxserver/nginx:latest
+    ports:
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - container: /config
+version: '3.3'

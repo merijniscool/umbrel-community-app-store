@@ -1,0 +1,6 @@
+services:
+  penpot (http) {shmolf}:
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

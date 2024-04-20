@@ -1,0 +1,7 @@
+services:
+  sql server:
+    image: microsoft/mssql-server-linux:2017-GA
+    ports:
+    - 1433/tcp
+    volumes: []
+version: '3.3'

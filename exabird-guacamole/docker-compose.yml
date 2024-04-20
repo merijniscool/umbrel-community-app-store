@@ -1,0 +1,9 @@
+services:
+  guacamole:
+    image: oznu/guacamole:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Guacamole
+      container: /config
+version: '3.3'

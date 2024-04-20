@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Cardigann, a server for adding extra indexers to Sonarr, SickRage and
+  CouchPotato via Torznab and TorrentPotato proxies. Behind the scenes Cardigann logs
+  in and runs searches and then transforms the results into a compatible format.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/cardigann.png
+id: exabird-cardigann
+manifestVersion: 1
+name: Cardigann
+path: ''
+port: '5060'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-cardigann
+submission: https://github.com/exabird/umbrel-exabird-cardigann
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-cardigann/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

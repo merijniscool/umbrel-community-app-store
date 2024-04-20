@@ -1,0 +1,6 @@
+services:
+  your_spotify:
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

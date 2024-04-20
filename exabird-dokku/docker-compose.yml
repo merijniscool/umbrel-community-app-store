@@ -1,0 +1,13 @@
+services:
+  dokku:
+    image: dokku/dokku
+    ports:
+    - 22/tcp
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - bind: /var/lib/dokku
+      container: /mnt/dokku
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+version: '3.3'

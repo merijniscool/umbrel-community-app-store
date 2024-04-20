@@ -1,0 +1,8 @@
+services:
+  deluge:
+    image: linuxserver/deluge:latest
+    ports: []
+    volumes:
+    - container: /config
+    - container: /downloads
+version: '3.3'

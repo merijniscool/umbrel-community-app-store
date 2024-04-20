@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: It is a self-hosted monitoring tool like Uptime Robot
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://images.opencollective.com/uptime-kuma/29c5113/logo/256.png
+id: exabird-uptime-kuma
+manifestVersion: 1
+name: Uptime Kuma
+path: ''
+port: '3001'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-uptime-kuma
+submission: https://github.com/exabird/umbrel-exabird-uptime-kuma
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-uptime-kuma/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

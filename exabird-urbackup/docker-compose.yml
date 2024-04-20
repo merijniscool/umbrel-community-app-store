@@ -1,0 +1,11 @@
+services:
+  urbackup:
+    image: cfstras/urbackup
+    ports:
+    - 55413/tcp
+    - 55414/tcp
+    - 55415/tcp
+    - 35622/tcp
+    volumes:
+    - container: /var/urbackup
+version: '3.3'

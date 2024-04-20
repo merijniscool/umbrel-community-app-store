@@ -1,0 +1,11 @@
+services:
+  ariang:
+    image: hurlenko/aria2-ariang:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/AriaNG
+      container: /aria2/conf
+    - bind: /portainer/Downloads
+      container: /aria2/data
+version: '3.3'

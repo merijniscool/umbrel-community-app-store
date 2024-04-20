@@ -1,0 +1,10 @@
+services:
+  medusa:
+    image: linuxserver/medusa:latest
+    ports:
+    - 8081/tcp
+    volumes:
+    - container: /config
+    - container: /tv
+    - container: /downloads
+version: '3.3'

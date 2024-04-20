@@ -1,0 +1,7 @@
+services:
+  sshwifty:
+    image: niruix/sshwifty:latest
+    ports:
+    - 8182:8182/tcp
+    volumes: []
+version: '3.3'

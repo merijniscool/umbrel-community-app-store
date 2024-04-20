@@ -1,0 +1,9 @@
+services:
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    ports:
+    - 5050:80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/pgadmin
+      container: /var/lib/pgadmin
+version: '3.3'

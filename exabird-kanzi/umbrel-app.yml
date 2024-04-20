@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Kanzi](https://lexigr.am/), formerly titled Kodi-Alexa, this custom
+  skill is the ultimate voice remote control for navigating Kodi. It can do anything
+  you can think of (100+ intents). This container also contains lexigram-cli to setup
+  Kanzi with an Amazon Developer Account and automatically deploy it to Amazon.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/kanzi.png
+id: exabird-kanzi
+manifestVersion: 1
+name: Kanzi
+path: ''
+port: '8000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-kanzi
+submission: https://github.com/exabird/umbrel-exabird-kanzi
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-kanzi/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

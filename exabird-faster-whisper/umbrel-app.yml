@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Faster-whisper](https://github.com/SYSTRAN/faster-whisper) is a reimplementation
+  of OpenAI''s Whisper model using CTranslate2, which is a fast inference engine for
+  Transformer models. This container provides a Wyoming protocol server for faster-whisper.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/faster-whisper-logo.png
+id: exabird-faster-whisper
+manifestVersion: 1
+name: Faster-whisper
+path: ''
+port: '10300'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-faster-whisper
+submission: https://github.com/exabird/umbrel-exabird-faster-whisper
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-faster-whisper/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

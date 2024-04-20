@@ -1,0 +1,9 @@
+services:
+  embystat:
+    image: linuxserver/embystat:latest
+    ports:
+    - 6555:6555/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/EmbyStat
+      container: /config
+version: '3.3'

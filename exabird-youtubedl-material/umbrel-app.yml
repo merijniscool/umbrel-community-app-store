@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: YoutubeDL-Material is a Material Design frontend for youtube-dl. It's
+  coded using Angular 9 for the frontend, and Node.js on the backend.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/ytdlm.png
+id: exabird-youtubedl-material
+manifestVersion: 1
+name: YouTubeDL-Material
+path: ''
+port: '17442'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-youtubedl-material
+submission: https://github.com/exabird/umbrel-exabird-youtubedl-material
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-youtubedl-material/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

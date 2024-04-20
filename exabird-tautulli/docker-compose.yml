@@ -1,0 +1,9 @@
+services:
+  tautulli:
+    image: linuxserver/tautulli:latest
+    ports:
+    - 8181/tcp
+    volumes:
+    - container: /logs
+    - container: /config
+version: '3.3'

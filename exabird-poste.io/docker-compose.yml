@@ -1,0 +1,6 @@
+services:
+  poste.io:
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

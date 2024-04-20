@@ -1,0 +1,13 @@
+services:
+  archisteamfarm:
+    image: justarchi/archisteamfarm:latest
+    ports:
+    - 1242:1242/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/ArchiSteamFarm/Config
+      container: /app/config
+    - bind: /portainer/Files/AppData/Config/ArchiSteamFarm/Plugins
+      container: /app/plugins/customplugins
+    - bind: /portainer/Files/AppData/Config/ArchiSteamFarm/Logs
+      container: /app/logs
+version: '3.3'

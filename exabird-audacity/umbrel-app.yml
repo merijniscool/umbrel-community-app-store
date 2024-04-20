@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Audacity](https://www.audacityteam.org/) is an easy-to-use, multi-track
+  audio editor and recorder. Developed by a group of volunteers as open source.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/audacity-logo.png
+id: exabird-audacity
+manifestVersion: 1
+name: Audacity
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-audacity
+submission: https://github.com/exabird/umbrel-exabird-audacity
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-audacity/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

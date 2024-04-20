@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Grav](https://github.com/getgrav/grav/) is a Fast, Simple, and Flexible,
+  file-based Web-platform.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/grav-logo.png
+id: exabird-grav
+manifestVersion: 1
+name: Grav
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-grav
+submission: https://github.com/exabird/umbrel-exabird-grav
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-grav/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Xbackbone](https://github.com/SergiX44/XBackBone) is a simple, self-hosted,
+  lightweight PHP file manager that support the instant sharing tool ShareX and *NIX
+  systems. It supports uploading and displaying images, GIF, video, code, formatted
+  text, and file downloading and uploading. Also have a web UI with multi user management,
+  past uploads history and search support.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/SergiX44/XBackBone/master/docs/img/xbackbone.png
+id: exabird-xbackbone
+manifestVersion: 1
+name: Xbackbone
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-xbackbone
+submission: https://github.com/exabird/umbrel-exabird-xbackbone
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-xbackbone/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

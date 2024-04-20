@@ -1,0 +1,9 @@
+services:
+  chowdown:
+    image: gregyankovoy/chowdown:latest
+    ports:
+    - 4000:4000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Chowdown
+      container: /config
+version: '3.3'

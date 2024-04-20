@@ -1,0 +1,11 @@
+services:
+  rutorrent:
+    image: linuxserver/rutorrent:latest
+    ports:
+    - 80/tcp
+    - 51413/tcp
+    - 6881/udp
+    volumes:
+    - container: /config
+    - container: /downloads
+version: '3.3'

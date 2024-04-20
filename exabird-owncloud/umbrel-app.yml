@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "ownCloud is a self-hosted file sync and share server. It provides access\
+  \ to your data through a web interface, sync clients or WebDAV while providing a\
+  \ platform to view, sync and share across devices easily\u2014all under your control.\
+  \ ownCloud\u2019s open architecture is extensible via a simple but powerful API\
+  \ for applications and plugins and it works with any storage."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/docker-library/docs/9d36b4ed7cabc35dbd3849272ba2bd7abe482172/owncloud/logo.png
+id: exabird-owncloud
+manifestVersion: 1
+name: Owncloud
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-owncloud
+submission: https://github.com/exabird/umbrel-exabird-owncloud
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-owncloud/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

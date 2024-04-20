@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Booksonic is a server and an app for streaming your audiobooks to any
+  pc or android phone. Most of the functionality is also availiable on other platforms
+  that have apps for subsonic
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/booksonic.png
+id: exabird-booksonic
+manifestVersion: 1
+name: booksonic
+path: ''
+port: 4040/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-booksonic
+submission: https://github.com/exabird/umbrel-exabird-booksonic
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-booksonic/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

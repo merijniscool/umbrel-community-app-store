@@ -1,0 +1,10 @@
+services:
+  chromium:
+    image: linuxserver/chromium:latest
+    ports:
+    - 3000:3000/tcp
+    - 3001:3001/tcp
+    volumes:
+    - bind: /volume1/docker/chromium/config
+      container: /config
+version: '3.3'

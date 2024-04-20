@@ -1,0 +1,11 @@
+services:
+  wowza:
+    image: sameersbn/wowza:4.1.2-8
+    ports:
+    - 1935/tcp
+    - 8086/tcp
+    - 8087/tcp
+    - 8088/tcp
+    volumes:
+    - container: /var/lib/wowza
+version: '3.3'

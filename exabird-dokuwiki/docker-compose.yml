@@ -1,0 +1,10 @@
+services:
+  dokuwiki:
+    image: linuxserver/dokuwiki:latest
+    ports:
+    - 80:80/tcp
+    - 443:443/tcp
+    volumes:
+    - bind: /volume1/docker/dokuwiki/config
+      container: /config
+version: '3.3'

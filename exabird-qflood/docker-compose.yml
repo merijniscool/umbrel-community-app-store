@@ -1,0 +1,12 @@
+services:
+  qflood:
+    image: hotio/qflood:latest
+    ports:
+    - 3000:3000/tcp
+    - 8080:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/qFlood
+      container: /config
+    - bind: /portainer/Downloads
+      container: /app/qBittorrent/downloads
+version: '3.3'

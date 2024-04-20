@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "ClamAV\xAE is an open source antivirus engine for detecting trojans,\
+  \ viruses, malware & other malicious threats."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: http://www.clamav.net/assets/clamav-trademark.png
+id: exabird-clamav
+manifestVersion: 1
+name: Clamav
+path: ''
+port: '3310'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-clamav
+submission: https://github.com/exabird/umbrel-exabird-clamav
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-clamav/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

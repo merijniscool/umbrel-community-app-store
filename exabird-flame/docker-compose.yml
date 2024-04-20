@@ -1,0 +1,11 @@
+services:
+  flame:
+    image: pawelmalak/flame:multiarch
+    ports:
+    - 5005:5005/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Flame/data
+      container: /app/data
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+version: '3.3'

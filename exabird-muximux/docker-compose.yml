@@ -1,0 +1,8 @@
+services:
+  muximux:
+    image: linuxserver/muximux:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /config
+version: '3.3'

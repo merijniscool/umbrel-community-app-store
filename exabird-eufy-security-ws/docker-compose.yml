@@ -1,0 +1,9 @@
+services:
+  eufy security ws:
+    image: bropat/eufy-security-ws:latest
+    ports:
+    - 3993:3000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/eufy-security-ws
+      container: /data
+version: '3.3'

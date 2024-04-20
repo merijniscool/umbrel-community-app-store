@@ -1,0 +1,10 @@
+services:
+  rclone config backup:
+    image: mediadepot/rclone:latest
+    ports: []
+    volumes:
+    - bind: /opt/mediadepot/apps/rclone
+      container: /srv/rclone/config
+    - bind: /opt/mediadepot/apps
+      container: /mnt/data
+version: '3.3'

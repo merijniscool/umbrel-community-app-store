@@ -1,0 +1,11 @@
+services:
+  jdownloader:
+    image: jaymoulin/jdownloader:latest
+    ports:
+    - 3129:3129/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/JDownloader
+      container: /opt/JDownloader/app/cfg
+    - bind: /portainer/Downloads
+      container: /opt/JDownloader/Downloads
+version: '3.3'

@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Quassel IRC is a modern, cross-platform, distributed IRC client, meaning
+  that one (or multiple) client(s) can attach to and detach from a central core --
+  much like the popular combination of screen and a text-based IRC client such as
+  WeeChat, but graphical. Blowfish support and optional web-ui included.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/quassel-core-icon.png
+id: exabird-quassel-core
+manifestVersion: 1
+name: quassel-core
+path: ''
+port: 4242/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-quassel-core
+submission: https://github.com/exabird/umbrel-exabird-quassel-core
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-quassel-core/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

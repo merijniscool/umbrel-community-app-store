@@ -1,0 +1,10 @@
+services:
+  radarr:
+    image: linuxserver/radarr:latest
+    ports:
+    - 7878/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /movies
+version: '3.3'

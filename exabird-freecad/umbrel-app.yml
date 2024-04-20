@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[FreeCAD](https://www.freecad.org/) is a general-purpose parametric
+  3D computer-aided design (CAD) modeler and a building information modeling (BIM)
+  software application with finite element method (FEM) support.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freecad-logo.png
+id: exabird-freecad
+manifestVersion: 1
+name: Freecad
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-freecad
+submission: https://github.com/exabird/umbrel-exabird-freecad
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-freecad/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

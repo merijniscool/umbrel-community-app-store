@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Self-hosted terminal recording and playback
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/asciinema.svg
+id: exabird-asciinema-{shmolf}
+manifestVersion: 1
+name: Asciinema {shmolf}
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-asciinema-{shmolf}
+submission: https://github.com/exabird/umbrel-exabird-asciinema-{shmolf}
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-asciinema-{shmolf}/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

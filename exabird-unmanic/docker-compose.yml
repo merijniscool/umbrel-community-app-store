@@ -1,0 +1,13 @@
+services:
+  unmanic:
+    image: josh5/unmanic:latest
+    ports:
+    - 8888:8888/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/unmanic/config
+      container: /config
+    - bind: /portainer/Files/AppData/Config/unmanic/library
+      container: /library
+    - bind: /portainer/Files/AppData/Config/unmanic/tmp
+      container: /tmp/unmanic
+version: '3.3'

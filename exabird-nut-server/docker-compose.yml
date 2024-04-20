@@ -1,0 +1,7 @@
+services:
+  nut server:
+    image: instantlinux/nut-upsd:latest
+    ports:
+    - 3493:3493/tcp
+    volumes: []
+version: '3.3'

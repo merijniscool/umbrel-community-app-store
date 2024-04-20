@@ -1,0 +1,10 @@
+services:
+  sickchill:
+    image: linuxserver/sickchill:latest
+    ports:
+    - 8081/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /tv
+version: '3.3'

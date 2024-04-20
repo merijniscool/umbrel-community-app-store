@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A clientless remote desktop gateway.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/guacamole.png
+id: exabird-guacamole
+manifestVersion: 1
+name: Guacamole
+path: ''
+port: '8080'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-guacamole
+submission: https://github.com/exabird/umbrel-exabird-guacamole
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-guacamole/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

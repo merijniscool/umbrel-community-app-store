@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Full stack mailserver solution with  TLS support. POP3s, SMTP(s), IMAPs,
+  RSPAMD, Clamav, Roundcube(HTTPS), SPF, DKIM with simple installation and web administration.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: ''
+id: exabird-poste.io
+manifestVersion: 1
+name: Poste.io
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-poste.io
+submission: https://github.com/exabird/umbrel-exabird-poste.io
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-poste.io/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

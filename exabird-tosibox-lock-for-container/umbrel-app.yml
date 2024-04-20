@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Lock for Container brings secure connectivity inside your industrial
+  IoT devices
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/tosibox.png
+id: exabird-tosibox-lock-for-container
+manifestVersion: 1
+name: TOSIBOX Lock for Container
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-tosibox-lock-for-container
+submission: https://github.com/exabird/umbrel-exabird-tosibox-lock-for-container
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-tosibox-lock-for-container/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

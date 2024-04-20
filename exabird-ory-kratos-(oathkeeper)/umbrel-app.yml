@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'Ory Kratos with Oathkeeper (ORY Oathkeeper is an Identity & Access Proxy
+  (IAP) and Access Control Decision API that authorizes HTTP requests based on sets
+  of Access Rules.) '
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/ory/meta/master/static/banners/oathkeeper.svg
+id: exabird-ory-kratos-(oathkeeper)
+manifestVersion: 1
+name: Ory Kratos (Oathkeeper)
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-ory-kratos-(oathkeeper)
+submission: https://github.com/exabird/umbrel-exabird-ory-kratos-(oathkeeper)
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-ory-kratos-(oathkeeper)/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

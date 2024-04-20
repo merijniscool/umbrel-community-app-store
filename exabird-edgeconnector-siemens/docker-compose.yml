@@ -1,0 +1,9 @@
+services:
+  edgeconnector siemens:
+    image: softingindustrial/edgeconnector-siemens
+    ports:
+    - 443/tcp
+    - 8099/tcp
+    - 4897/tcp
+    volumes: []
+version: '3.3'

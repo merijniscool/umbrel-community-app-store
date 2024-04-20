@@ -1,0 +1,9 @@
+services:
+  iobroker:
+    image: buanet/iobroker:latest
+    ports:
+    - 8081:8081/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/iobrokerdata
+      container: /opt/iobroker
+version: '3.3'

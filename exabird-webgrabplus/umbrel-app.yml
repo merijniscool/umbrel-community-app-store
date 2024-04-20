@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: WebGrab+Plus is a multi-site incremental xmltv epg grabber. It collects
+  tv-program guide data from selected tvguide sites for your favourite channels.Optional
+  postprocessors to add IMDb data, or to customize your xmltv listing.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/webgrabplus.png
+id: exabird-webgrabplus
+manifestVersion: 1
+name: webgrabplus
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-webgrabplus
+submission: https://github.com/exabird/umbrel-exabird-webgrabplus
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-webgrabplus/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

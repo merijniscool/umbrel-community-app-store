@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'Mautic provides free and open source marketing automation software available
+  to everyone. '
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://www.mautic.org/themes/custom/mauticorg_base/logo.svg
+id: exabird-mautic
+manifestVersion: 1
+name: Mautic
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-mautic
+submission: https://github.com/exabird/umbrel-exabird-mautic
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-mautic/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

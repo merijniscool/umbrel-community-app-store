@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Firefox Browser, also known as Mozilla Firefox or simply Firefox, is
+  a free and open-source web browser developed by the Mozilla Foundation and its subsidiary,
+  the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages,
+  which implements current and anticipated web standards.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/Firefox.png
+id: exabird-firefox
+manifestVersion: 1
+name: Firefox
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-firefox
+submission: https://github.com/exabird/umbrel-exabird-firefox
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-firefox/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

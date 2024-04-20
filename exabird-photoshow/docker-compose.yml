@@ -1,0 +1,10 @@
+services:
+  photoshow:
+    image: linuxserver/photoshow:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /Pictures
+    - container: /Thumbs
+    - container: /config
+version: '3.3'

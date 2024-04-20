@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Connect Modbus TCP Sensors/PLCs and provide the data via OPC UA and MQTT
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://example.com/path/to/default-icon.png
+id: exabird-softing-edgeconnector-modbus
+manifestVersion: 1
+name: Softing EdgeConnector modbus
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-modbus
+submission: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-modbus
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-softing-edgeconnector-modbus/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

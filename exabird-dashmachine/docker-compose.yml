@@ -1,0 +1,9 @@
+services:
+  dashmachine:
+    image: rmountjoy/dashmachine:latest
+    ports:
+    - 5000:5000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Dashmachine
+      container: /dashmachine/dashmachine/user_data
+version: '3.3'

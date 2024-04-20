@@ -1,0 +1,7 @@
+services:
+  synclounge:
+    image: linuxserver/synclounge:latest
+    ports:
+    - 8088:8088/tcp
+    volumes: []
+version: '3.3'

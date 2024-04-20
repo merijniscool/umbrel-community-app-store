@@ -1,0 +1,8 @@
+services:
+  change detection:
+    image: dgtlmoon/changedetection.io
+    ports: []
+    volumes:
+    - bind: /portainer/Files/AppData/Config/changedetection
+      container: /datastore
+version: '3.3'

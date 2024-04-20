@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Docker Metrics Collector is a container that runs Metricbeat with the
+  modules you enable at runtime.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://mediadepot.github.io/templates/img/logzio-icon.png
+id: exabird-logzio-metrics-collector
+manifestVersion: 1
+name: Logzio Metrics Collector
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-logzio-metrics-collector
+submission: https://github.com/exabird/umbrel-exabird-logzio-metrics-collector
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-logzio-metrics-collector/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

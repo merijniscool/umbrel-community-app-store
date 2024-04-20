@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'Pydio (formerly AjaXplorer) is a mature open source software solution
+  for file sharing and synchronization. With intuitive user interfaces (web / mobile
+  / desktop), Pydio provides enterprise-grade features to gain back control and privacy
+  of your data: user directory connectors, legacy filesystems drivers, comprehensive
+  admin interface, and much more.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/pydio-icon.png
+id: exabird-pydio
+manifestVersion: 1
+name: pydio
+path: ''
+port: 443/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-pydio
+submission: https://github.com/exabird/umbrel-exabird-pydio
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-pydio/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

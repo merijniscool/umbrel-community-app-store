@@ -1,0 +1,21 @@
+services:
+  netdata:
+    image: netdata/netdata:latest
+    ports:
+    - 19999:19999/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/netdata/netdataconfig
+      container: /etc/netdata
+    - bind: /portainer/Files/AppData/Config/netdata/netdatalib
+      container: /var/lib/netdata
+    - bind: /etc/passwd
+      container: /host/etc/passwd:ro
+    - bind: /etc/group
+      container: /host/etc/group:ro
+    - bind: /proc
+      container: /host/proc:ro
+    - bind: /sys
+      container: /host/sys:ro
+    - bind: /etc/os-release
+      container: /host/etc/os-release:ro
+version: '3.3'

@@ -1,0 +1,10 @@
+services:
+  budge:
+    image: linuxserver/budge:latest
+    ports:
+    - 80:80/tcp
+    - 443:443/tcp
+    volumes:
+    - bind: /volume1/docker/budge/config
+      container: /config
+version: '3.3'

@@ -1,0 +1,10 @@
+services:
+  openvpn-as:
+    image: linuxserver/openvpn-as:latest
+    ports:
+    - 943/tcp
+    - 9443/tcp
+    - 1194/udp
+    volumes:
+    - container: /config
+version: '3.3'

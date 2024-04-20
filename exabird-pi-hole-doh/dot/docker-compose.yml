@@ -1,0 +1,15 @@
+services:
+  pi-hole doh/dot:
+    image: oijkn/pihole-doh-dot:latest
+    ports:
+    - 53:53/tcp
+    - 53:53/udp
+    - 67:67/udp
+    - 1010:80/tcp
+    - 4443:443/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/PiHole_DoH-DoT
+      container: /etc/pihole
+    - bind: /portainer/Files/AppData/Config/PiHole_DoH-DoT/DNS
+      container: /etc/dnsmasq.d
+version: '3.3'

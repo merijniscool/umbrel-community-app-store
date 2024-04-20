@@ -1,0 +1,13 @@
+services:
+  mylar3:
+    image: linuxserver/mylar3:latest
+    ports:
+    - 8090:8090/tcp
+    volumes:
+    - bind: /volume1/docker/mylar3/config
+      container: /config
+    - bind: /volume1/docker/mylar3/comics
+      container: /comics
+    - bind: /volume1/docker/mylar3/downloads
+      container: /downloads
+version: '3.3'

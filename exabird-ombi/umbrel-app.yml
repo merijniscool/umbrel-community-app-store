@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'Ombi allows you to host your own Plex Request and user management system. '
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/ombi.png
+id: exabird-ombi
+manifestVersion: 1
+name: ombi
+path: ''
+port: 3579/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-ombi
+submission: https://github.com/exabird/umbrel-exabird-ombi
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-ombi/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Koomga Manga, Comic and E-Book Server
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/gotson/komga/master/.github/readme-images/app-icon.png
+id: exabird-komga
+manifestVersion: 1
+name: Komga
+path: ''
+port: '8080'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-komga
+submission: https://github.com/exabird/umbrel-exabird-komga
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-komga/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

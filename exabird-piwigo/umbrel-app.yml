@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Piwigo is photo gallery software for the web, built by an active community
+  of users and developers.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/piwigo-icon.png
+id: exabird-piwigo
+manifestVersion: 1
+name: piwigo
+path: ''
+port: 80/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-piwigo
+submission: https://github.com/exabird/umbrel-exabird-piwigo
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-piwigo/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

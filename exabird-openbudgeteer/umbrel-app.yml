@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: OpenBudgeteer is a budgeting app based on the Bucket Budgeting Principle
+  and inspired by YNAB and Buckets.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/TheAxelander/OpenBudgeteer/raw/master/assets/banner.png
+id: exabird-openbudgeteer
+manifestVersion: 1
+name: OpenBudgeteer
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-openbudgeteer
+submission: https://github.com/exabird/umbrel-exabird-openbudgeteer
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-openbudgeteer/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

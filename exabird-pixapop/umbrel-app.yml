@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Pixapop](https://github.com/bierdok/pixapop) is an open-source single
+  page application to view your photos in the easiest way possible.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pixapop.png
+id: exabird-pixapop
+manifestVersion: 1
+name: Pixapop
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-pixapop
+submission: https://github.com/exabird/umbrel-exabird-pixapop
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-pixapop/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

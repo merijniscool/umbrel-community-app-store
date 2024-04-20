@@ -1,0 +1,9 @@
+services:
+  oscam:
+    image: linuxserver/oscam:latest
+    ports:
+    - 8888/tcp
+    - 10000/tcp
+    volumes:
+    - container: /config
+version: '3.3'

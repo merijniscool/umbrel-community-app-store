@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Remotely is a remote control and remote scripting solution, built with
+  .NET 6, Blazor, and SignalR Core.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: ''
+id: exabird-remotely
+manifestVersion: 1
+name: Remotely
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-remotely
+submission: https://github.com/exabird/umbrel-exabird-remotely
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-remotely/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

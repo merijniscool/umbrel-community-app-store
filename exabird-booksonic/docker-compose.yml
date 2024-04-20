@@ -1,0 +1,10 @@
+services:
+  booksonic:
+    image: linuxserver/booksonic:latest
+    ports:
+    - 4040/tcp
+    volumes:
+    - container: /books
+    - container: /podcast
+    - container: /config
+version: '3.3'

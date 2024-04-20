@@ -1,0 +1,9 @@
+services:
+  minio:
+    image: minio/minio:latest
+    ports:
+    - 9000/tcp
+    volumes:
+    - container: /data
+    - container: /root/.minio
+version: '3.3'

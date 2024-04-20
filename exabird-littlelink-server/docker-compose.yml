@@ -1,0 +1,7 @@
+services:
+  littlelink server:
+    image: example/example:latest
+    ports:
+    - 3000:3000/tcp
+    volumes: []
+version: '3.3'

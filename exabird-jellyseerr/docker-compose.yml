@@ -1,0 +1,9 @@
+services:
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    ports:
+    - 5055:5055/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Jellyseerr
+      container: /app/config
+version: '3.3'

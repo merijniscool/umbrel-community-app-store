@@ -1,0 +1,9 @@
+services:
+  unrar:
+    image: linuxserver/unrar:latest
+    ports:
+    - 80:80/tcp
+    volumes:
+    - bind: /volume1/docker/unrar/config
+      container: /config
+version: '3.3'

@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Hasty Paste is a fast and minimal paste bin, written in Python using
+  Quart.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: ''
+id: exabird-hasty-paste
+manifestVersion: 1
+name: Hasty-Paste
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-hasty-paste
+submission: https://github.com/exabird/umbrel-exabird-hasty-paste
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-hasty-paste/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

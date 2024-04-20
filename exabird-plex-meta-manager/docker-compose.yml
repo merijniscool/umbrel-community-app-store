@@ -1,0 +1,8 @@
+services:
+  plex-meta-manager:
+    image: linuxserver/plex-meta-manager:latest
+    ports: []
+    volumes:
+    - bind: /volume1/docker/plex-meta-manager/config
+      container: /config
+version: '3.3'

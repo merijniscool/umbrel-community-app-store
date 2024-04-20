@@ -1,0 +1,7 @@
+services:
+  nano-wallet:
+    image: linuxserver/nano-wallet:latest
+    ports:
+    - 80:80/tcp
+    volumes: []
+version: '3.3'

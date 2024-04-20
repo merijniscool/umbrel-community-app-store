@@ -1,0 +1,6 @@
+services:
+  softing edgeconnector fanuc cnc:
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

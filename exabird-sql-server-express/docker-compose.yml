@@ -1,0 +1,8 @@
+services:
+  sql server express:
+    image: microsoft/mssql-server-windows-express:latest
+    ports:
+    - 1433/tcp
+    volumes:
+    - container: C:/temp/
+version: '3.3'

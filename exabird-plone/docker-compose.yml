@@ -1,0 +1,8 @@
+services:
+  plone:
+    image: plone:latest
+    ports:
+    - 8080/tcp
+    volumes:
+    - container: /data
+version: '3.3'

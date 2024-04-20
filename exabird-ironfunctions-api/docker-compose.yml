@@ -1,0 +1,8 @@
+services:
+  ironfunctions api:
+    image: iron/functions:latest
+    ports:
+    - 8080/tcp
+    volumes:
+    - container: /app/data
+version: '3.3'

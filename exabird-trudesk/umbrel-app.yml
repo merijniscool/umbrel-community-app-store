@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Trudesk is an Open Source Help Desk Software and Ticketing System
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://trudesk.io/wp-content/uploads/2019/10/logo-med.png
+id: exabird-trudesk
+manifestVersion: 1
+name: Trudesk
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-trudesk
+submission: https://github.com/exabird/umbrel-exabird-trudesk
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-trudesk/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

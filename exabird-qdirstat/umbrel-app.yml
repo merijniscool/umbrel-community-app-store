@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[QDirStat](https://github.com/shundhammer/qdirstat) Qt-based directory
+  statistics: KDirStat without any KDE -- from the author of the original KDirStat.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qdirstat-logo.png
+id: exabird-qdirstat
+manifestVersion: 1
+name: Qdirstat
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-qdirstat
+submission: https://github.com/exabird/umbrel-exabird-qdirstat
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-qdirstat/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

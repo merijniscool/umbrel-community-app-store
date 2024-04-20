@@ -1,0 +1,8 @@
+services:
+  webgrabplus:
+    image: linuxserver/webgrabplus:latest
+    ports: []
+    volumes:
+    - container: /config
+    - container: /data
+version: '3.3'

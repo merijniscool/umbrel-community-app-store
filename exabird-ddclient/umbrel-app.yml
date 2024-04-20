@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Ddclient](https://github.com/ddclient/ddclient) is a Perl client used
+  to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
+  It was originally written by Paul Burry and is now mostly by wimpunk. It has the
+  capability to update more than just dyndns and it can fetch your WAN-ipaddress in
+  a few different ways.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ddclient-logo.png
+id: exabird-ddclient
+manifestVersion: 1
+name: Ddclient
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-ddclient
+submission: https://github.com/exabird/umbrel-exabird-ddclient
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-ddclient/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

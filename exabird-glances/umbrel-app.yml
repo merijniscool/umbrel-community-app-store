@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Glances is an open-source system cross-platform monitoring tool. It allows
+  real-time monitoring of various aspects of your system such as CPU, memory, disk,
+  network usage etc.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/nicolargo/glances/develop/docs/_static/glances-responsive-webdesign.png
+id: exabird-glances
+manifestVersion: 1
+name: Glances
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-glances
+submission: https://github.com/exabird/umbrel-exabird-glances
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-glances/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

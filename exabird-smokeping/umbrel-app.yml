@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Smokeping keeps track of your network latency.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/smokeping-icon.png
+id: exabird-smokeping
+manifestVersion: 1
+name: smokeping
+path: ''
+port: 80/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-smokeping
+submission: https://github.com/exabird/umbrel-exabird-smokeping
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-smokeping/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

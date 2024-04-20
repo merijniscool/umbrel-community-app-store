@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Project management tool from the future. An open-source software development
+  tool to manage issues, sprints, and product roadmaps with peace of mind.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-assets/logo/text-logo.svg
+id: exabird-plane
+manifestVersion: 1
+name: Plane
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-plane
+submission: https://github.com/exabird/umbrel-exabird-plane
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-plane/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

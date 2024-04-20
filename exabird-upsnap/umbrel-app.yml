@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: UpSnap is a simple wake on lan app written with SvelteKit, Go, PocketBase
+  and nmap.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/seriousm4x/UpSnap/raw/master/frontend/static/favicon.png
+id: exabird-upsnap
+manifestVersion: 1
+name: Upsnap
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-upsnap
+submission: https://github.com/exabird/umbrel-exabird-upsnap
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-upsnap/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

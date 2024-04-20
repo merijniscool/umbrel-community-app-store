@@ -1,0 +1,9 @@
+services:
+  faster-whisper:
+    image: linuxserver/faster-whisper:latest
+    ports:
+    - 10300:10300/tcp
+    volumes:
+    - bind: /volume1/docker/faster-whisper/config
+      container: /config
+version: '3.3'

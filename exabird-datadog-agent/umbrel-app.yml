@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Collect events and metrics
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/datadog_agent.png
+id: exabird-datadog-agent
+manifestVersion: 1
+name: Datadog agent
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-datadog-agent
+submission: https://github.com/exabird/umbrel-exabird-datadog-agent
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-datadog-agent/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

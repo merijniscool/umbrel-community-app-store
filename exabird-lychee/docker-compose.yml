@@ -1,0 +1,9 @@
+services:
+  lychee:
+    image: linuxserver/lychee:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /config
+    - container: /pictures
+version: '3.3'

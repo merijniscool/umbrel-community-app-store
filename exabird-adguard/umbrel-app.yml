@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "AdGuard Home is a network-wide software for blocking ads & tracking.\
+  \ After you set it up, it\u2019ll cover ALL your home devices, and you don\u2019\
+  t need any client-side software for that. With the rise of Internet-Of-Things and\
+  \ connected devices, it becomes more and more important to be able to control your\
+  \ whole network."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/adguard.png
+id: exabird-adguard
+manifestVersion: 1
+name: Adguard
+path: ''
+port: '53'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-adguard
+submission: https://github.com/exabird/umbrel-exabird-adguard
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-adguard/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

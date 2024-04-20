@@ -1,0 +1,9 @@
+services:
+  archivebox:
+    image: archivebox/archivebox:latest
+    ports:
+    - 8002:8000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/archivebox
+      container: /data
+version: '3.3'

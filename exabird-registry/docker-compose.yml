@@ -1,0 +1,8 @@
+services:
+  registry:
+    image: registry:latest
+    ports:
+    - 5000/tcp
+    volumes:
+    - container: /var/lib/registry
+version: '3.3'

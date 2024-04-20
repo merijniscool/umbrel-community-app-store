@@ -1,0 +1,9 @@
+services:
+  pi.alert:
+    image: jokobsk/pi.alert
+    ports:
+    - 20211:20211/udp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/pi.alert
+      container: /config
+version: '3.3'

@@ -1,0 +1,11 @@
+services:
+  octoprint:
+    image: octoprint/octoprint:latest
+    ports:
+    - 8051:80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/OctoPrint
+      container: /octoprint
+    - bind: /dev
+      container: /dev
+version: '3.3'

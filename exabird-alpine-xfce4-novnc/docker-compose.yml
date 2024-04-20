@@ -1,0 +1,10 @@
+services:
+  alpine xfce4 novnc:
+    image: novaspirit/alpine_xfce4_novnc:latest
+    ports:
+    - 6080:6080/tcp
+    - 56780:56780/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/alpine-xfce4-novnc/home/alpine/downloads
+      container: /home/alpine/downloads
+version: '3.3'

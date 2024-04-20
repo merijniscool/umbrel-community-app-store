@@ -1,0 +1,9 @@
+services:
+  projectsend:
+    image: linuxserver/projectsend:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /data
+    - container: /config
+version: '3.3'

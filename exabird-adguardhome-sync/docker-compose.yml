@@ -1,0 +1,9 @@
+services:
+  adguardhome-sync:
+    image: linuxserver/adguardhome-sync:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /volume1/docker/adguardhome-sync/config
+      container: /config
+version: '3.3'

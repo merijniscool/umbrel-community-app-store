@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Jellyfin is a Free Software Media System that puts you in control of
+  managing and streaming your media. It is an alternative to the proprietary Emby
+  and Plex, to provide media from a dedicated server to end-user devices via multiple
+  apps.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/jellyfin.png
+id: exabird-jellyfin
+manifestVersion: 1
+name: Jellyfin
+path: ''
+port: '8096'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-jellyfin
+submission: https://github.com/exabird/umbrel-exabird-jellyfin
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-jellyfin/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

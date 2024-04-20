@@ -1,0 +1,9 @@
+services:
+  yq:
+    image: linuxserver/yq:latest
+    ports:
+    - 80:80/tcp
+    volumes:
+    - bind: /volume1/docker/yq/config
+      container: /config
+version: '3.3'

@@ -1,0 +1,10 @@
+services:
+  let's encrypt / swag:
+    image: linuxserver/swag:latest
+    ports:
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/LetsEncrypt
+      container: /config
+version: '3.3'

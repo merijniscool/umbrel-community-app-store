@@ -1,0 +1,11 @@
+services:
+  ubooquity:
+    image: linuxserver/ubooquity:latest
+    ports:
+    - 2202/tcp
+    - 2203/tcp
+    volumes:
+    - container: /books
+    - container: /comics
+    - container: /config
+version: '3.3'

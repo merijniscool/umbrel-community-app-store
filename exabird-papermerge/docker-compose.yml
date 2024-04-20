@@ -1,0 +1,11 @@
+services:
+  papermerge:
+    image: linuxserver/papermerge:latest
+    ports:
+    - 8000:8000/tcp
+    volumes:
+    - bind: /volume1/docker/papermerge/config
+      container: /config
+    - bind: /volume1/docker/papermerge/data
+      container: /data
+version: '3.3'

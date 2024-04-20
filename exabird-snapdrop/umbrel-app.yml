@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Snapdrop](https://github.com/RobinLinus/snapdrop) A local file sharing
+  in your browser. Inspired by Apple''s Airdrop.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/RobinLinus/snapdrop/master/client/images/logo_transparent_512x512.png
+id: exabird-snapdrop
+manifestVersion: 1
+name: Snapdrop
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-snapdrop
+submission: https://github.com/exabird/umbrel-exabird-snapdrop
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-snapdrop/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

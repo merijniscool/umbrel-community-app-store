@@ -1,0 +1,9 @@
+services:
+  heimdall:
+    image: linuxserver/heimdall:latest
+    ports:
+    - 80/tcp
+    - 443/tcp
+    volumes:
+    - container: /config
+version: '3.3'

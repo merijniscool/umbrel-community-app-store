@@ -1,0 +1,9 @@
+services:
+  hedgedoc:
+    image: linuxserver/hedgedoc:latest
+    ports:
+    - 3000:3000/tcp
+    volumes:
+    - bind: /volume1/docker/hedgedoc/config
+      container: /config
+version: '3.3'

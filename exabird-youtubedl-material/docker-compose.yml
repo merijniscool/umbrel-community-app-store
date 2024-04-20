@@ -1,0 +1,17 @@
+services:
+  youtubedl-material:
+    image: tzahi12345/youtubedl-material:latest
+    ports:
+    - 17442:17442/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/YTDLM
+      container: /app/appdata
+    - bind: /portainer/Files/AppData/Youtube/Video
+      container: /app/video
+    - bind: /portainer/Files/AppData/Youtube/Subscriptions
+      container: /app/subscriptions
+    - bind: /portainer/Files/AppData/Youtube/Users
+      container: /app/users
+    - bind: /portainer/Files/AppData/Youtube/Audio
+      container: /app/audio
+version: '3.3'

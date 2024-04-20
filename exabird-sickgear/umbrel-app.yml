@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: SickGear provides management of TV shows and/or Anime, it detects new
+  episodes, links downloader apps, and more.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/sickgear-icon.png
+id: exabird-sickgear
+manifestVersion: 1
+name: SickGear
+path: ''
+port: '8081'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-sickgear
+submission: https://github.com/exabird/umbrel-exabird-sickgear
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-sickgear/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

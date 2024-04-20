@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Grafana is the open source analytics & monitoring solution for every
+  database.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://upload.wikimedia.org/wikipedia/commons/9/9d/Grafana_logo.png?20170804201233
+id: exabird-grafana
+manifestVersion: 1
+name: Grafana
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-grafana
+submission: https://github.com/exabird/umbrel-exabird-grafana
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-grafana/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

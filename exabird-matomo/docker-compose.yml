@@ -1,0 +1,7 @@
+services:
+  matomo:
+    image: example/example:latest
+    ports:
+    - 8282:80/tcp
+    volumes: []
+version: '3.3'

@@ -1,0 +1,11 @@
+services:
+  syncthing:
+    image: linuxserver/syncthing:latest
+    ports:
+    - 8384/tcp
+    - 21027/udp
+    - 22000/tcp
+    volumes:
+    - container: /config
+    - container: /sync
+version: '3.3'

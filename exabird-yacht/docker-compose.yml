@@ -1,0 +1,11 @@
+services:
+  yacht:
+    image: selfhostedpro/yacht:latest
+    ports:
+    - 8001:8000/tcp
+    volumes:
+    - bind: yacht
+      container: /config
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+version: '3.3'

@@ -1,0 +1,8 @@
+services:
+  thelounge:
+    image: linuxserver/thelounge:latest
+    ports:
+    - 9000/tcp
+    volumes:
+    - container: /config
+version: '3.3'

@@ -1,0 +1,7 @@
+services:
+  vlmcsd - kms:
+    image: mikolatero/vlmcsd:latest
+    ports:
+    - 1688:1688/tcp
+    volumes: []
+version: '3.3'

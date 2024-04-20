@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: It is an open source HTML presentation framework. It enables anyone with
+  a web browser to create fully featured and beautiful presentations for free | Production
+  Mode
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://pbs.twimg.com/profile_images/1260911777929400325/_ClbHpsz_400x400.jpg
+id: exabird-reveal.js
+manifestVersion: 1
+name: Reveal.js
+path: ''
+port: '6060'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-reveal.js
+submission: https://github.com/exabird/umbrel-exabird-reveal.js
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-reveal.js/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

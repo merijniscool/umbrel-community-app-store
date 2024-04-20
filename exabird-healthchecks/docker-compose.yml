@@ -1,0 +1,9 @@
+services:
+  healthchecks:
+    image: linuxserver/healthchecks:latest
+    ports:
+    - 8000:8000/tcp
+    volumes:
+    - bind: /volume1/docker/healthchecks/config
+      container: /config
+version: '3.3'

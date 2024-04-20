@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Simplify the management of your server with Homarr - a sleek, modern
+  dashboard that puts all of your apps and services at your fingertips.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://homarr.dev/img/logo.svg
+id: exabird-homarr
+manifestVersion: 1
+name: Homarr
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-homarr
+submission: https://github.com/exabird/umbrel-exabird-homarr
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-homarr/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

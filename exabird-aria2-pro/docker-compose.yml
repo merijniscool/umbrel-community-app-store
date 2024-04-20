@@ -1,0 +1,6 @@
+services:
+  aria2 pro:
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

@@ -1,0 +1,8 @@
+services:
+  ldap-auth:
+    image: linuxserver/ldap-auth:latest
+    ports:
+    - 8888:8888/tcp
+    - 9000:9000/tcp
+    volumes: []
+version: '3.3'

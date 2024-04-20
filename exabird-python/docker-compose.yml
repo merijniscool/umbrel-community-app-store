@@ -1,0 +1,9 @@
+services:
+  python:
+    image: linuxserver/python:latest
+    ports:
+    - 80:80/tcp
+    volumes:
+    - bind: /volume1/docker/python/config
+      container: /config
+version: '3.3'

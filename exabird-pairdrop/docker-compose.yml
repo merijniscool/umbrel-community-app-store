@@ -1,0 +1,7 @@
+services:
+  pairdrop:
+    image: linuxserver/pairdrop:latest
+    ports:
+    - 3000:3000/tcp
+    volumes: []
+version: '3.3'

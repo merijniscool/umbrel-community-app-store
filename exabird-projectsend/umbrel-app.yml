@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "ProjectSend is a self-hosted application that lets you upload files\
+  \ and assign them to specific clients that you create yourself! Secure, private\
+  \ and easy. No more depending on external services or e-mail to send those files!\n\
+  \  "
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/projectsend-logo.png
+id: exabird-projectsend
+manifestVersion: 1
+name: projectsend
+path: ''
+port: 80/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-projectsend
+submission: https://github.com/exabird/umbrel-exabird-projectsend
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-projectsend/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

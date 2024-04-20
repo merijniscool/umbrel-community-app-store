@@ -1,0 +1,9 @@
+services:
+  pydio:
+    image: linuxserver/pydio:latest
+    ports:
+    - 443/tcp
+    volumes:
+    - container: /config
+    - container: /data
+version: '3.3'

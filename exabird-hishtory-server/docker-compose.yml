@@ -1,0 +1,7 @@
+services:
+  hishtory-server:
+    image: linuxserver/hishtory-server:latest
+    ports:
+    - 8080:8080/tcp
+    volumes: []
+version: '3.3'

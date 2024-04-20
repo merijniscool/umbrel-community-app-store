@@ -1,0 +1,11 @@
+services:
+  stirling pdf {shmolf}:
+    image: frooodle/s-pdf:0.18.1
+    ports:
+    - 5417:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/StirlingPDF
+      container: /configs
+    - bind: /portainer/Files/AppData/Libraries/StirlingPDF/tessdata
+      container: /usr/share/tesseract-ocr/5/tessdata
+version: '3.3'

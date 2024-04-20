@@ -1,0 +1,27 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Duck DNS is a free service which will point a DNS (sub domains of duckdns.org)
+  to an IP of your choice. The service is completely free, and doesn't require reactivation
+  or forum posts to maintain its existence. First, go to duckdns site, register your
+  subdomain and retrieve your token. Then run the docker create command above with
+  your subdomain(s) and token. It will update your IP with the DuckDNS service every
+  5 minutes.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/duckdns.png
+id: exabird-duckdns
+manifestVersion: 1
+name: duckdns
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-duckdns
+submission: https://github.com/exabird/umbrel-exabird-duckdns
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-duckdns/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

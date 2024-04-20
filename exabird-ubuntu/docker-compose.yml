@@ -1,0 +1,6 @@
+services:
+  ubuntu:
+    image: ubuntu:latest
+    ports: []
+    volumes: []
+version: '3.3'

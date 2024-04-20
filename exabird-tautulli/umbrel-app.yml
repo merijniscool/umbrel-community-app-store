@@ -1,0 +1,27 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Tautulli is a 3rd party application that you can run along side your
+  Plex Media Server to monitor activity and track various statistics. Most importantly,
+  these statistics include what has been watched, who watched it, when and where they
+  watched it, and how it was watched. All statistics are presented in a nice and clean
+  interface with many tables and graphs, which makes it easy to brag about your server
+  to everyone else.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/tautulli-icon.png
+id: exabird-tautulli
+manifestVersion: 1
+name: tautulli
+path: ''
+port: 8181/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-tautulli
+submission: https://github.com/exabird/umbrel-exabird-tautulli
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-tautulli/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

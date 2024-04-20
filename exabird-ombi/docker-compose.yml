@@ -1,0 +1,8 @@
+services:
+  ombi:
+    image: linuxserver/ombi:latest
+    ports:
+    - 3579/tcp
+    volumes:
+    - container: /config
+version: '3.3'

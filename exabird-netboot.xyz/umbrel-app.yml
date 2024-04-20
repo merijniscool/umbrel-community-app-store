@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: netboot.xyz is a convenient place to boot into any type of operating
+  system or utility disk without the need of having to go spend time retrieving the
+  ISO just to run it
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://netboot.xyz/img/nbxyz-logo.svg
+id: exabird-netboot.xyz
+manifestVersion: 1
+name: Netboot.xyz
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-netboot.xyz
+submission: https://github.com/exabird/umbrel-exabird-netboot.xyz
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-netboot.xyz/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

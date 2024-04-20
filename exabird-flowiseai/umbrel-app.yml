@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Open source UI visual tool to build your customized LLM flow using LangchainJS,
+  written in Node Typescript/Javascript
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://flowiseai.com/_next/static/images/flowise_logo_dark-6c1a356f4868d3deb7864323ff93a0fa.png
+id: exabird-flowiseai
+manifestVersion: 1
+name: Flowiseai
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-flowiseai
+submission: https://github.com/exabird/umbrel-exabird-flowiseai
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-flowiseai/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

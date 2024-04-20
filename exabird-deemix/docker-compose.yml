@@ -1,0 +1,11 @@
+services:
+  deemix:
+    image: registry.gitlab.com/bockiii/deemix-docker
+    ports:
+    - 6595:6595/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/DeeMix
+      container: /config
+    - bind: /portainer/Downloads
+      container: /downloads
+version: '3.3'

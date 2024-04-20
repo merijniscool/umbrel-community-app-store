@@ -1,0 +1,10 @@
+services:
+  domoticz:
+    image: linuxserver/domoticz:latest
+    ports:
+    - 1443/tcp
+    - 6144/tcp
+    - 8080/tcp
+    volumes:
+    - container: /config
+version: '3.3'

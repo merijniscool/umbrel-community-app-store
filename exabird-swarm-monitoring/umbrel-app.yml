@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Monitor your cluster performances with Prometheus & Grafana
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/portainer.png
+id: exabird-swarm-monitoring
+manifestVersion: 1
+name: Swarm monitoring
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-swarm-monitoring
+submission: https://github.com/exabird/umbrel-exabird-swarm-monitoring
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-swarm-monitoring/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

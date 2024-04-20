@@ -1,0 +1,9 @@
+services:
+  webtop:
+    image: linuxserver/webtop:ubuntu-kde
+    ports:
+    - 3000:3000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/WebTop
+      container: /config
+version: '3.3'

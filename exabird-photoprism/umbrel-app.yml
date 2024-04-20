@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: PhotoPrism is an AI-powered app for browsing, organizing & sharing your
+  photo collection. It makes use of the latest technologies to tag and find pictures
+  automatically without getting in your way.| Copy as Custom stack and EDIT environment
+  variables.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://photoprism.app/static/img/logo.svg
+id: exabird-photoprism
+manifestVersion: 1
+name: Photoprism
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-photoprism
+submission: https://github.com/exabird/umbrel-exabird-photoprism
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-photoprism/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,6 @@
+services:
+  nodejs:
+    image: node:latest
+    ports: []
+    volumes: []
+version: '3.3'

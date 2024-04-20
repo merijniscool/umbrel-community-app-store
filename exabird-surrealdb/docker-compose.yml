@@ -1,0 +1,9 @@
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    ports:
+    - 8020:8000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/surrealdb/data
+      container: /data
+version: '3.3'

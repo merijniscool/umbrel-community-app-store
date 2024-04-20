@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Your media enjoyed through a minimal lightweight media server.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/midarrlabs/midarr-server/raw/master/priv/static/logo.svg
+id: exabird-midarr
+manifestVersion: 1
+name: Midarr
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-midarr
+submission: https://github.com/exabird/umbrel-exabird-midarr
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-midarr/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

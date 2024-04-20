@@ -1,0 +1,9 @@
+services:
+  watchtower {shmolf}:
+    image: containrrr/watchtower
+    ports:
+    - 9001/tcp
+    volumes:
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+version: '3.3'

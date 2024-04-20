@@ -1,0 +1,7 @@
+services:
+  ghostfolio:
+    image: example/example:latest
+    ports:
+    - 3663:80/tcp
+    volumes: []
+version: '3.3'

@@ -1,0 +1,11 @@
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    ports:
+    - 6881/tcp
+    - 6881/udp
+    - 8080/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+version: '3.3'

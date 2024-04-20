@@ -1,0 +1,15 @@
+services:
+  datadog agent:
+    image: datadog/agent:latest
+    ports: []
+    volumes:
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+      readonly: true
+    - bind: /sys/fs/cgroup
+      container: /host/sys/fs/cgroup
+      readonly: true
+    - bind: /proc
+      container: /host/proc
+      readonly: true
+version: '3.3'

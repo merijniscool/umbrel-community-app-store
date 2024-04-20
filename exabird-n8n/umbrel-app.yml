@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: n8n is an extendable workflow automation tool.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/n8n.jpg
+id: exabird-n8n
+manifestVersion: 1
+name: n8n
+path: ''
+port: '5678'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-n8n
+submission: https://github.com/exabird/umbrel-exabird-n8n
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-n8n/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

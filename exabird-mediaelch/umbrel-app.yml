@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[MediaElch](https://github.com/Komet/MediaElch) is a MediaManager for
+  Kodi. Information about Movies, TV Shows, Concerts and Music are stored as nfo files.
+  Fanarts are downloaded automatically from fanart.tv. Using the nfo generator, MediaElch
+  can be used with other MediaCenters as well.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mediaelch-logo.png
+id: exabird-mediaelch
+manifestVersion: 1
+name: Mediaelch
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-mediaelch
+submission: https://github.com/exabird/umbrel-exabird-mediaelch
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-mediaelch/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "Eclipse Mosquitto is an open source message broker that implements the\
+  \ MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable\
+  \ for use on all devices from low power single board computers to full servers.\r\
+  \nHave a look on https://mosquitto.org/man/mosquitto_passwd-1.html"
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/eclipse-mosquitto.png
+id: exabird-eclipse-mosquitto-mqtt
+manifestVersion: 1
+name: Eclipse Mosquitto MQTT
+path: ''
+port: '1883'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-eclipse-mosquitto-mqtt
+submission: https://github.com/exabird/umbrel-exabird-eclipse-mosquitto-mqtt
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-eclipse-mosquitto-mqtt/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

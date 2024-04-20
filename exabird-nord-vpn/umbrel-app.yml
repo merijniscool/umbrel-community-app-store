@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: This is an OpenVPN client docker container that uses recommended NordVPN
+  server. It makes routing containers traffic through OpenVPN easy.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://s3.us-east-2.amazonaws.com/ccp-prd-s3-uploads/2022/3/8/03500108885898f010e823eeb284e393b99e1ad5.png
+id: exabird-nord-vpn
+manifestVersion: 1
+name: nord-vpn
+path: ''
+port: '8080'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-nord-vpn
+submission: https://github.com/exabird/umbrel-exabird-nord-vpn
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-nord-vpn/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

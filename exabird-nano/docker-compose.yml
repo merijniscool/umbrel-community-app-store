@@ -1,0 +1,11 @@
+services:
+  nano:
+    image: linuxserver/nano:latest
+    ports:
+    - 8075:8075/tcp
+    - 7076:3000/tcp
+    - 7077:3001/tcp
+    volumes:
+    - bind: /volume1/docker/nano/config
+      container: /config
+version: '3.3'

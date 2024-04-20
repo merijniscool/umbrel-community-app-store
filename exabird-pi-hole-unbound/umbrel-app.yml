@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A Linux network-level advertisement and Internet tracker blocking application
+  which acts as a DNS sinkhole. This version has Ubound software installed on it so
+  you don't need to rely on external DNS providers. When the installation is complete,
+  navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a>
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pihole-unbound.png
+id: exabird-pi-hole-unbound
+manifestVersion: 1
+name: Pi-Hole-Unbound
+path: ''
+port: '53'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-pi-hole-unbound
+submission: https://github.com/exabird/umbrel-exabird-pi-hole-unbound
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-pi-hole-unbound/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,9 @@
+services:
+  shiori:
+    image: radhifadlillah/shiori:latest
+    ports:
+    - 8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Shiori
+      container: /srv/shiori
+version: '3.3'

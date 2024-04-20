@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Openssh-server](https://www.openssh.com/) is a sandboxed environment
+  that allows ssh access without giving keys to the entire server. Giving ssh access
+  via private key often means giving full access to the server. This container creates
+  a limited and sandboxed environment that others can ssh into. The users only have
+  access to the folders mapped and the processes running inside this container.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://upload.wikimedia.org/wikipedia/en/6/65/OpenSSH_logo.png
+id: exabird-openssh-server
+manifestVersion: 1
+name: Openssh-server
+path: ''
+port: '2222'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-openssh-server
+submission: https://github.com/exabird/umbrel-exabird-openssh-server
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-openssh-server/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Flame is self-hosted startpage for your server. Its design is inspired
+  (heavily) by SUI. Flame is very easy to setup and use. With built-in editors, it
+  allows you to setup your very own application hub in no time - no file editing necessary.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/flame.png
+id: exabird-flame-dashboard
+manifestVersion: 1
+name: Flame-Dashboard
+path: ''
+port: '5005'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-flame-dashboard
+submission: https://github.com/exabird/umbrel-exabird-flame-dashboard
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-flame-dashboard/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

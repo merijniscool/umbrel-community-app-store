@@ -1,0 +1,9 @@
+services:
+  kanzi:
+    image: linuxserver/kanzi:latest
+    ports:
+    - 8000:8000/tcp
+    volumes:
+    - bind: /volume1/docker/kanzi/config
+      container: /config
+version: '3.3'

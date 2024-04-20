@@ -1,0 +1,10 @@
+services:
+  couchpotato:
+    image: linuxserver/couchpotato:latest
+    ports:
+    - 5050/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /movies
+version: '3.3'

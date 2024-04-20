@@ -1,0 +1,9 @@
+services:
+  speedtest tracker:
+    image: henrywhitaker3/speedtest-tracker:dev-arm
+    ports:
+    - 8765:80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/speedtest-tracker
+      container: /config
+version: '3.3'

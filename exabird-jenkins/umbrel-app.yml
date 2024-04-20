@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Open-source continuous integration tool
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/jenkins.png
+id: exabird-jenkins
+manifestVersion: 1
+name: Jenkins
+path: ''
+port: 8080/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-jenkins
+submission: https://github.com/exabird/umbrel-exabird-jenkins
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-jenkins/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

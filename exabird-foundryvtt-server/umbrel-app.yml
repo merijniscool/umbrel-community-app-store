@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: This docker image provides the FoundryVTT system for hosting your own
+  virtual table top games.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/foundrylogo.png
+id: exabird-foundryvtt-server
+manifestVersion: 1
+name: FoundryVTT Server
+path: ''
+port: '30000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-foundryvtt-server
+submission: https://github.com/exabird/umbrel-exabird-foundryvtt-server
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-foundryvtt-server/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

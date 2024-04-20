@@ -1,0 +1,12 @@
+services:
+  wizarr:
+    image: ghcr.io/wizarrrr/wizarr
+    ports:
+    - 5690/tcp
+    volumes:
+    - bind: /opt/mediadepot/apps/wizarr
+      container: /data/database
+    - bind: /etc/localtime
+      container: /etc/localtime
+      readonly: true
+version: '3.3'

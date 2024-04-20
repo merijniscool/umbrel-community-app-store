@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Doplarr](https://github.com/kiranshila/Doplarr) is an *arr request
+  bot for Discord.'''
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/doplarr-logo_title.png
+id: exabird-doplarr
+manifestVersion: 1
+name: Doplarr
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-doplarr
+submission: https://github.com/exabird/umbrel-exabird-doplarr
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-doplarr/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[FIleZilla](https://filezilla-project.org/) Client is a fast and reliable
+  cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive
+  graphical user interface.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/filezilla-logo.png
+id: exabird-filezilla
+manifestVersion: 1
+name: Filezilla
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-filezilla
+submission: https://github.com/exabird/umbrel-exabird-filezilla
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-filezilla/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

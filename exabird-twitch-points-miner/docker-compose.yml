@@ -1,0 +1,15 @@
+services:
+  twitch points miner:
+    image: rdavidoff/twitch-channel-points-miner-v2:latest
+    ports:
+    - 5000:5000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/TwitchPointsMiner/run.py
+      container: /usr/src/app/run.py
+    - bind: /portainer/Files/AppData/TwitchPointsMiner/cookies
+      container: /usr/src/app/cookies
+    - bind: /portainer/Files/AppData/TwitchPointsMiner/logs
+      container: /usr/src/app/logs
+    - bind: /portainer/Files/AppData/TwitchPointsMiner/analytics
+      container: /usr/src/app/analytics
+version: '3.3'

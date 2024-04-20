@@ -1,0 +1,11 @@
+services:
+  logzio logs collector:
+    image: logzio/docker-collector-logs
+    ports: []
+    volumes:
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+      readonly: true
+    - bind: /var/lib/docker/containers
+      container: /var/lib/docker/containers
+version: '3.3'

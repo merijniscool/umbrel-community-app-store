@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Deploy compose files, start/stop containers, delete unused images, view
+  logs
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://dokemon.dev/logo/dokemon-dark-medium.svg
+id: exabird-dokemon
+manifestVersion: 1
+name: Dokemon
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-dokemon
+submission: https://github.com/exabird/umbrel-exabird-dokemon
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-dokemon/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

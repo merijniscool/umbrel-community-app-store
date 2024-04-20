@@ -1,0 +1,9 @@
+services:
+  grocy:
+    image: linuxserver/grocy:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Grocy
+      container: /config
+version: '3.3'

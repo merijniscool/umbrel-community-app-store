@@ -1,0 +1,8 @@
+services:
+  znc:
+    image: linuxserver/znc:latest
+    ports:
+    - 6501/tcp
+    volumes:
+    - container: /config
+version: '3.3'

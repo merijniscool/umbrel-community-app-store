@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[syslog-ng](https://www.syslog-ng.com/products/open-source-log-management/)
+  allows you to flexibly collect, parse, classify, rewrite and correlate logs from
+  across your infrastructure and store or route them to log analysis tools.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/syslog-ng-logo.png
+id: exabird-syslog-ng
+manifestVersion: 1
+name: Syslog-ng
+path: ''
+port: '514'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-syslog-ng
+submission: https://github.com/exabird/umbrel-exabird-syslog-ng
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-syslog-ng/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

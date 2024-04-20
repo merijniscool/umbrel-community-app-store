@@ -1,0 +1,10 @@
+services:
+  lazylibrarian:
+    image: linuxserver/lazylibrarian:latest
+    ports:
+    - 5299/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /books
+version: '3.3'

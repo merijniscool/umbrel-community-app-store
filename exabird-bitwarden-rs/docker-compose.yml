@@ -1,0 +1,9 @@
+services:
+  bitwarden rs:
+    image: bitwardenrs/server:latest
+    ports:
+    - :80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Bitwarden-rs
+      container: /config
+version: '3.3'

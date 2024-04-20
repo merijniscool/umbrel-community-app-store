@@ -1,0 +1,8 @@
+services:
+  redmine:
+    image: redmine:latest
+    ports:
+    - 3000/tcp
+    volumes:
+    - container: /usr/src/redmine/files
+version: '3.3'

@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'The to-do app to organize your life.| Before use create custom template
+  and Edit: VIKUNJA_SERVICE_FRONTENDURL , VIKUNJA_API_URL & VIKUNJA_SERVICE_JWTSECRET'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://vikunja.io/images/vikunja.png
+id: exabird-vikunja
+manifestVersion: 1
+name: Vikunja
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-vikunja
+submission: https://github.com/exabird/umbrel-exabird-vikunja
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-vikunja/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

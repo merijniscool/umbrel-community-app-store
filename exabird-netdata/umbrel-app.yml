@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Troubleshoot slowdowns and anomalies in your infrastructure with thousands
+  of per-second metrics, meaningful visualizations, and insightful health alarms with
+  zero configuration.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/netdata.png
+id: exabird-netdata
+manifestVersion: 1
+name: Netdata
+path: ''
+port: '19999'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-netdata
+submission: https://github.com/exabird/umbrel-exabird-netdata
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-netdata/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

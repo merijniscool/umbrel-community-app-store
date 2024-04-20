@@ -1,0 +1,10 @@
+services:
+  lldap:
+    image: nitnelave/lldap:stable-debian
+    ports:
+    - 3890:3890/tcp
+    - 17170:17170/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/lldap/data
+      container: /data
+version: '3.3'

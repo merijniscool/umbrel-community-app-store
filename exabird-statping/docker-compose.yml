@@ -1,0 +1,9 @@
+services:
+  statping:
+    image: statping/statping:latest
+    ports:
+    - 4040:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/statping
+      container: /app
+version: '3.3'

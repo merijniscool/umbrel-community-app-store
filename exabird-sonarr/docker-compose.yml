@@ -1,0 +1,11 @@
+services:
+  sonarr:
+    image: linuxserver/sonarr:latest
+    ports:
+    - 8989/tcp
+    volumes:
+    - container: /config
+    - container: /dev/rtc
+    - container: /tv
+    - container: /downloads
+version: '3.3'

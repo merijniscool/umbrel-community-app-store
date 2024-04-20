@@ -1,0 +1,7 @@
+services:
+  servas:
+    image: example/example:latest
+    ports:
+    - 8456:80/tcp
+    volumes: []
+version: '3.3'

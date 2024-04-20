@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "[VSCodium](https://vscodium.com/) is a community-driven, freely-licensed\
+  \ binary distribution of Microsoft\u2019s editor VS Code."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/vscodium-icon.png
+id: exabird-vscodium
+manifestVersion: 1
+name: Vscodium
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-vscodium
+submission: https://github.com/exabird/umbrel-exabird-vscodium
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-vscodium/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

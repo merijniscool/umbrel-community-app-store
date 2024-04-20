@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "Codiad is a web-based IDE framework with a small footprint and minimal\
+  \ requirements.\n  "
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/codiad-icon.png
+id: exabird-codiad
+manifestVersion: 1
+name: codiad
+path: ''
+port: 80/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-codiad
+submission: https://github.com/exabird/umbrel-exabird-codiad
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-codiad/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

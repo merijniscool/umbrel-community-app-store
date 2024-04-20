@@ -1,0 +1,13 @@
+services:
+  bazarr:
+    image: hotio/bazarr:release
+    ports:
+    - 6767:6767/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Bazarr
+      container: /config
+    - bind: /portainer/TV
+      container: /tv
+    - bind: /portainer/Movies
+      container: /movies
+version: '3.3'

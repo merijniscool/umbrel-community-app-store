@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Requestrr](https://github.com/darkalfx/requestrr) is a chatbot used
+  to simplify using services like Sonarr/Radarr/Ombi via the use of chat.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/darkalfx/requestrr/raw/master/Logos/requestrr_discord_Icon_512.png
+id: exabird-requestrr
+manifestVersion: 1
+name: Requestrr
+path: ''
+port: '4545'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-requestrr
+submission: https://github.com/exabird/umbrel-exabird-requestrr
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-requestrr/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

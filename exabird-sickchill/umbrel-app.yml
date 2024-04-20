@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Sickchill is an Automatic Video Library Manager for TV Shows. It watches
+  for new episodes of your favorite shows, and when they are posted it does its magic.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/sickchill.png
+id: exabird-sickchill
+manifestVersion: 1
+name: sickchill
+path: ''
+port: 8081/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-sickchill
+submission: https://github.com/exabird/umbrel-exabird-sickchill
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-sickchill/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,9 @@
+services:
+  librespeed:
+    image: linuxserver/librespeed:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/LibreSpeed
+      container: /config
+version: '3.3'

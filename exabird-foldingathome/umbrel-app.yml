@@ -1,0 +1,27 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Folding@home](https://foldingathome.org/) is a distributed computing
+  project for simulating protein dynamics, including the process of protein folding
+  and the movements of proteins implicated in a variety of diseases. It brings together
+  citizen scientists who volunteer to run simulations of protein dynamics on their
+  personal computers. Insights from this data are helping scientists to better understand
+  biology, and providing new opportunities for developing therapeutics.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://foldingathome.org/wp-content/uploads/2016/09/folding-at-home-logo.png
+id: exabird-foldingathome
+manifestVersion: 1
+name: Foldingathome
+path: ''
+port: '7396'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-foldingathome
+submission: https://github.com/exabird/umbrel-exabird-foldingathome
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-foldingathome/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

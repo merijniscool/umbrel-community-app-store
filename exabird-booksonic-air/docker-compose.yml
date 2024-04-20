@@ -1,0 +1,15 @@
+services:
+  booksonic-air:
+    image: linuxserver/booksonic-air:latest
+    ports:
+    - 4040:4040/tcp
+    volumes:
+    - bind: /volume1/docker/booksonic-air/config
+      container: /config
+    - bind: /volume1/docker/booksonic-air/audiobooks
+      container: /audiobooks
+    - bind: /volume1/docker/booksonic-air/podcasts
+      container: /podcasts
+    - bind: /volume1/docker/booksonic-air/othermedia
+      container: /othermedia
+version: '3.3'

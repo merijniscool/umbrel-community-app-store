@@ -1,0 +1,9 @@
+services:
+  edgeconnector modbus:
+    image: softingindustrial/edgeconnector-modbus:latest
+    ports:
+    - 443/tcp
+    - 8099/tcp
+    - 4897/tcp
+    volumes: []
+version: '3.3'

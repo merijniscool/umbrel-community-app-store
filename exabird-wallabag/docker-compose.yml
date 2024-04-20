@@ -1,0 +1,7 @@
+services:
+  wallabag:
+    image: example/example:latest
+    ports:
+    - 8234:80/tcp
+    volumes: []
+version: '3.3'

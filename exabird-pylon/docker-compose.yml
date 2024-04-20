@@ -1,0 +1,11 @@
+services:
+  pylon:
+    image: linuxserver/pylon:latest
+    ports:
+    - 3131:3131/tcp
+    volumes:
+    - bind: /volume1/docker/pylon/config
+      container: /config
+    - bind: /volume1/docker/pylon/code
+      container: /code
+version: '3.3'

@@ -1,0 +1,28 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Dokuwiki](https://www.dokuwiki.org/dokuwiki/) is a simple to use and
+  highly versatile Open Source wiki software that doesn''t require a database. It
+  is loved by users for its clean and readable syntax. The ease of maintenance, backup
+  and integration makes it an administrator''s favorite. Built in access controls
+  and authentication connectors make DokuWiki especially useful in the enterprise
+  context and the large number of plugins contributed by its vibrant community allow
+  for a broad range of use cases beyond a traditional wiki.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/dokuwiki-icon.png
+id: exabird-dokuwiki
+manifestVersion: 1
+name: Dokuwiki
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-dokuwiki
+submission: https://github.com/exabird/umbrel-exabird-dokuwiki
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-dokuwiki/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

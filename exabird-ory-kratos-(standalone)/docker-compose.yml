@@ -1,0 +1,6 @@
+services:
+  ory kratos (standalone):
+    image: example/example:latest
+    ports: []
+    volumes: []
+version: '3.3'

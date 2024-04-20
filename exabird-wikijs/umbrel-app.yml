@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Wikijs A modern, lightweight and powerful wiki app built on NodeJS.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/wikijs.png
+id: exabird-wikijs
+manifestVersion: 1
+name: Wikijs
+path: ''
+port: '3100'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-wikijs
+submission: https://github.com/exabird/umbrel-exabird-wikijs
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-wikijs/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

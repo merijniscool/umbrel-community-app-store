@@ -1,0 +1,11 @@
+services:
+  paperless-ng:
+    image: linuxserver/paperless-ng:latest
+    ports:
+    - 8000:8000/tcp
+    volumes:
+    - bind: /volume1/docker/paperless-ng/config
+      container: /config
+    - bind: /volume1/docker/paperless-ng/data
+      container: /data
+version: '3.3'

@@ -1,0 +1,9 @@
+services:
+  plex requests:
+    image: linuxserver/plexrequests:latest
+    ports:
+    - 3000:3000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/PlexRequests
+      container: /config
+version: '3.3'

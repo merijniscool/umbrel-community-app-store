@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Open-Source Privacy-respecting metasearch engine
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/searx.png
+id: exabird-searxng
+manifestVersion: 1
+name: SearXNG
+path: ''
+port: '9017'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-searxng
+submission: https://github.com/exabird/umbrel-exabird-searxng
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-searxng/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,11 @@
+services:
+  resilio-sync:
+    image: linuxserver/resilio-sync:latest
+    ports:
+    - 8888/tcp
+    - 55555/tcp
+    volumes:
+    - container: /config
+    - container: /sync
+    - container: /downloads
+version: '3.3'

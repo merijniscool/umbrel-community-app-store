@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Secure, fast FTP server for UNIX-like systems
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://mediadepot.github.io/templates/img/pureftpd-icon.jpg
+id: exabird-vsftpd-ftp-server
+manifestVersion: 1
+name: vsftpd FTP Server
+path: ''
+port: 21/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-vsftpd-ftp-server
+submission: https://github.com/exabird/umbrel-exabird-vsftpd-ftp-server
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-vsftpd-ftp-server/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

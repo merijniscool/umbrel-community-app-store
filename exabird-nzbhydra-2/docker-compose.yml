@@ -1,0 +1,11 @@
+services:
+  nzbhydra 2:
+    image: linuxserver/nzbhydra2:latest
+    ports:
+    - 5076:5076/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Nzbhydra2
+      container: /config
+    - bind: /portainer/Downloads
+      container: /downloads
+version: '3.3'

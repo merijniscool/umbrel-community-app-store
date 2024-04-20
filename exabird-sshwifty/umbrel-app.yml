@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Sshwifty is a SSH and Telnet connector made for the Web. It can be deployed
+  on your computer or server to provide SSH and Telnet access interface for any compatible
+  (standard) web browser.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sshwifty-icon.png
+id: exabird-sshwifty
+manifestVersion: 1
+name: Sshwifty
+path: ''
+port: '8182'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-sshwifty
+submission: https://github.com/exabird/umbrel-exabird-sshwifty
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-sshwifty/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

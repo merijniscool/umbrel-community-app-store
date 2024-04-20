@@ -1,0 +1,9 @@
+services:
+  cardigann:
+    image: linuxserver/cardigann:latest
+    ports:
+    - 5060:5060/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Cardigann
+      container: /config
+version: '3.3'

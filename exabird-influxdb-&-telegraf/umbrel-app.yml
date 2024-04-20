@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: InfluxDB is an open source time series database for recording metrics,
+  events, and analytics. Telegraf is an agent for collecting metrics and writing them
+  to InfluxDB or other outputs.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/influxdb_telegraf.jpg
+id: exabird-influxdb-&-telegraf
+manifestVersion: 1
+name: Influxdb & Telegraf
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-influxdb-&-telegraf
+submission: https://github.com/exabird/umbrel-exabird-influxdb-&-telegraf
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-influxdb-&-telegraf/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

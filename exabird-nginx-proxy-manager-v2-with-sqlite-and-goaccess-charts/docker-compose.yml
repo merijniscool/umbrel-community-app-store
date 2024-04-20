@@ -1,0 +1,10 @@
+services:
+  nginx proxy manager v2 with sqlite and goaccess charts:
+    image: example/example:latest
+    ports:
+    - 80:80/tcp
+    - 81:81/tcp
+    - 443:443/tcp
+    - 7880:7880/tcp
+    volumes: []
+version: '3.3'

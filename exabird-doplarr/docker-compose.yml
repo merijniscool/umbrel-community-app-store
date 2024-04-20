@@ -1,0 +1,8 @@
+services:
+  doplarr:
+    image: linuxserver/doplarr:latest
+    ports: []
+    volumes:
+    - bind: /volume1/docker/doplarr/config
+      container: /config
+version: '3.3'

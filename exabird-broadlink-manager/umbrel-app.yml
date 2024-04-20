@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: BroadlinkManager is a Flask powerd, easy to use system that hepls you
+  to work with Broadlink Devices.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/broadlink.png
+id: exabird-broadlink-manager
+manifestVersion: 1
+name: Broadlink Manager
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-broadlink-manager
+submission: https://github.com/exabird/umbrel-exabird-broadlink-manager
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-broadlink-manager/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

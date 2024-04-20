@@ -1,0 +1,10 @@
+services:
+  apache httpd:
+    image: httpd:latest
+    ports:
+    - 8080:80/tcp
+    - 8443:443/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/apache-httpd
+      container: /usr/local/apache2/htdocs/
+version: '3.3'

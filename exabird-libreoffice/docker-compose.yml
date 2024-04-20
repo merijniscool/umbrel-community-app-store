@@ -1,0 +1,9 @@
+services:
+  libreoffice:
+    image: linuxserver/libreoffice:latest
+    ports:
+    - 3000:3000/tcp
+    volumes:
+    - bind: /volume1/docker/libreoffice/config
+      container: /config
+version: '3.3'

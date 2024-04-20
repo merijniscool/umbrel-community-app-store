@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Joplin is an open-source note-taking app
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/laurent22/joplin/master/Assets/SquareIcon512.png
+id: exabird-joplin
+manifestVersion: 1
+name: Joplin
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-joplin
+submission: https://github.com/exabird/umbrel-exabird-joplin
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-joplin/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

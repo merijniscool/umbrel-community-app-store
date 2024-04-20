@@ -1,0 +1,6 @@
+services:
+  duckdns:
+    image: linuxserver/duckdns:latest
+    ports: []
+    volumes: []
+version: '3.3'

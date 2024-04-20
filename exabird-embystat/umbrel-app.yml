@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Embystat is a personal web server that can calculate all kinds of statistics
+  from your (local) Emby server. Just install this on your server and let him calculate
+  all kinds of fun stuff.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/embystat.png
+id: exabird-embystat
+manifestVersion: 1
+name: EmbyStat
+path: ''
+port: '6555'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-embystat
+submission: https://github.com/exabird/umbrel-exabird-embystat
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-embystat/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

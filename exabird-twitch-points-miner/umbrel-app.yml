@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A simple script that will watch a stream for you and earn the channel
+  points.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/twitchpointsminer.png
+id: exabird-twitch-points-miner
+manifestVersion: 1
+name: Twitch Points Miner
+path: ''
+port: '5000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-twitch-points-miner
+submission: https://github.com/exabird/umbrel-exabird-twitch-points-miner
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-twitch-points-miner/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

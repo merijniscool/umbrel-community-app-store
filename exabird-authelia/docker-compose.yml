@@ -1,0 +1,9 @@
+services:
+  authelia:
+    image: authelia/authelia:latest
+    ports:
+    - 9091:9091/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Authelia
+      container: /etc/authelia/
+version: '3.3'

@@ -1,0 +1,10 @@
+services:
+  foldingathome:
+    image: linuxserver/foldingathome:latest
+    ports:
+    - 7396:7396/tcp
+    - 36330:36330/tcp
+    volumes:
+    - bind: /volume1/docker/foldingathome/config
+      container: /config
+version: '3.3'

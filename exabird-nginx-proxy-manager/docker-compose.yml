@@ -1,0 +1,13 @@
+services:
+  nginx proxy manager:
+    image: jc21/nginx-proxy-manager
+    ports:
+    - 80:80/tcp
+    - 81:81/tcp
+    - 443:443/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Nginx-Proxy/data
+      container: /data
+    - bind: /portainer/Files/AppData/Config/Nginx-Proxy/letsencrypt
+      container: /etc/letsencrypt
+version: '3.3'

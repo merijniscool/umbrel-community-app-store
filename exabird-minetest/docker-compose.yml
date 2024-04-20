@@ -1,0 +1,8 @@
+services:
+  minetest:
+    image: linuxserver/minetest:latest
+    ports:
+    - 30000/udp
+    volumes:
+    - container: /config/.minetest
+version: '3.3'

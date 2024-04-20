@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: 'IoBroker is a open source IoT platform written in JavaScript that easily
+  connects smarthome components from different manufactures. With the help of plugins
+  (called: adapters) ioBroker is able to communicate with a big variety of IoT hardware
+  and services using different protocols and APIs.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/buanet/ioBroker.docker/raw/main/docs/img/iobroker_logo.png
+id: exabird-iobroker
+manifestVersion: 1
+name: iobroker
+path: ''
+port: '8081'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-iobroker
+submission: https://github.com/exabird/umbrel-exabird-iobroker
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-iobroker/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Highly reliable enterprise messaging system
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/rabbitmq.png
+id: exabird-rabbitmq
+manifestVersion: 1
+name: RabbitMQ
+path: ''
+port: 5671/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-rabbitmq
+submission: https://github.com/exabird/umbrel-exabird-rabbitmq
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-rabbitmq/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

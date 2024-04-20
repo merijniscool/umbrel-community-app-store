@@ -1,0 +1,10 @@
+services:
+  lollypop:
+    image: linuxserver/lollypop:latest
+    ports:
+    - 3000:3000/tcp
+    - 3001:3001/tcp
+    volumes:
+    - bind: /volume1/docker/lollypop/config
+      container: /config
+version: '3.3'

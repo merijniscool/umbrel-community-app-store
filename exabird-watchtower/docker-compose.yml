@@ -1,0 +1,8 @@
+services:
+  watchtower:
+    image: containrrr/watchtower:latest
+    ports: []
+    volumes:
+    - bind: /var/run/docker.sock
+      container: /var/run/docker.sock
+version: '3.3'

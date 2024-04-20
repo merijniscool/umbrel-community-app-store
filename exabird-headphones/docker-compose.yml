@@ -1,0 +1,10 @@
+services:
+  headphones:
+    image: linuxserver/headphones:latest
+    ports:
+    - 8181/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /music
+version: '3.3'

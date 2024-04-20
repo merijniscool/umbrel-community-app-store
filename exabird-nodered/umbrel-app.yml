@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Node-RED provides a browser-based flow editor that makes it easy to wire
+  together flows using the wide range of nodes in the palette.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/node-red-icon.svg
+id: exabird-nodered
+manifestVersion: 1
+name: Nodered
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-nodered
+submission: https://github.com/exabird/umbrel-exabird-nodered
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-nodered/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

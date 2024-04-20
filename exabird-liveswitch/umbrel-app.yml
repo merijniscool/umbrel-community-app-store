@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A basic LiveSwitch stack with gateway, caching, database and media server
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/liveswitch.png
+id: exabird-liveswitch
+manifestVersion: 1
+name: LiveSwitch
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-liveswitch
+submission: https://github.com/exabird/umbrel-exabird-liveswitch
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-liveswitch/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

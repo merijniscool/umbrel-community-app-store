@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Streaming media server
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wowza.png
+id: exabird-wowza
+manifestVersion: 1
+name: Wowza
+path: ''
+port: 1935/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-wowza
+submission: https://github.com/exabird/umbrel-exabird-wowza
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-wowza/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[MySQL Workbench](https://www.mysql.com/products/workbench/) is a unified
+  visual tool for database architects, developers, and DBAs. MySQL Workbench provides
+  data modeling, SQL development, and comprehensive administration tools for server
+  configuration, user administration, backup, and much more.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mysql-workbench-icon.png
+id: exabird-mysql-workbench
+manifestVersion: 1
+name: Mysql-workbench
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-mysql-workbench
+submission: https://github.com/exabird/umbrel-exabird-mysql-workbench
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-mysql-workbench/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,11 @@
+services:
+  duplicati:
+    image: linuxserver/duplicati:latest
+    ports:
+    - 8200/tcp
+    volumes:
+    - container: /config
+    - container: /tmp
+    - container: /backups
+    - container: /source
+version: '3.3'

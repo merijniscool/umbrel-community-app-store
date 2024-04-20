@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Docker container for a Terraria dedicated server.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/shmolf/portainer-templates/main/assets/logos/terraria-server.png
+id: exabird-terraria-server-{shmolf}
+manifestVersion: 1
+name: Terraria Server {shmolf}
+path: ''
+port: '7777'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-terraria-server-{shmolf}
+submission: https://github.com/exabird/umbrel-exabird-terraria-server-{shmolf}
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-terraria-server-{shmolf}/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

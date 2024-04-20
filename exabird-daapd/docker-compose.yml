@@ -1,0 +1,8 @@
+services:
+  daapd:
+    image: linuxserver/daapd:latest
+    ports: []
+    volumes:
+    - container: /config
+    - container: /music
+version: '3.3'

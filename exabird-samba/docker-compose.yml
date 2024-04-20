@@ -1,0 +1,10 @@
+services:
+  samba:
+    image: dperson/samba:latest
+    ports:
+    - 139:139/tcp
+    - 445:445/tcp
+    volumes:
+    - bind: /portainer/Downloads
+      container: /share
+version: '3.3'

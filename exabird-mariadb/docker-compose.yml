@@ -1,0 +1,8 @@
+services:
+  mariadb:
+    image: linuxserver/mariadb:latest
+    ports:
+    - 3306/tcp
+    volumes:
+    - container: /config
+version: '3.3'

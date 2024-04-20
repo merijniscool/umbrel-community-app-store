@@ -1,0 +1,11 @@
+services:
+  diskover:
+    image: linuxserver/diskover:latest
+    ports:
+    - 80:80/tcp
+    volumes:
+    - bind: /volume1/docker/diskover/config
+      container: /config
+    - bind: /volume1/docker/diskover/data
+      container: /data
+version: '3.3'

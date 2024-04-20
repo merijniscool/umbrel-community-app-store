@@ -1,0 +1,9 @@
+services:
+  tiny tiny rss:
+    image: lunik1/tt-rss:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/tt-rss
+      container: /config
+version: '3.3'

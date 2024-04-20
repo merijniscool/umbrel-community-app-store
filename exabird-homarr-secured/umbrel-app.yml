@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Homarr is a simple and lightweight homepage for your server, that helps
+  you easily access all of your services in one place.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homarr.png
+id: exabird-homarr-secured
+manifestVersion: 1
+name: Homarr-Secured
+path: ''
+port: '7575'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-homarr-secured
+submission: https://github.com/exabird/umbrel-exabird-homarr-secured
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-homarr-secured/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,9 @@
+services:
+  openssh-server:
+    image: linuxserver/openssh-server:latest
+    ports:
+    - 2222:2222/tcp
+    volumes:
+    - bind: /volume1/docker/openssh-server/config
+      container: /config
+version: '3.3'

@@ -1,0 +1,9 @@
+services:
+  overseerr:
+    image: hotio/overseerr:release
+    ports:
+    - 5055:5055/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Overseerr
+      container: /config
+version: '3.3'

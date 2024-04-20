@@ -1,0 +1,28 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "[Ldap-auth](https://github.com/nginxinc/nginx-ldap-auth) software is\
+  \ for authenticating users who request protected resources from servers proxied\
+  \ by nginx. It includes a daemon (ldap-auth) that communicates with an authentication\
+  \ server, and a webserver daemon that generates an authentication cookie based on\
+  \ the user\u2019s credentials. The daemons are written in Python for use with a\
+  \ Lightweight Directory Access Protocol (LDAP) authentication server (OpenLDAP or\
+  \ Microsoft Windows Active Directory 2003 and 2012)."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://jumpcloud.com/wp-content/uploads/2016/12/LDAP_Logo-1420591101.jpg
+id: exabird-ldap-auth
+manifestVersion: 1
+name: Ldap-auth
+path: ''
+port: '8888'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-ldap-auth
+submission: https://github.com/exabird/umbrel-exabird-ldap-auth
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-ldap-auth/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

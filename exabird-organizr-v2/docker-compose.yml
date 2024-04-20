@@ -1,0 +1,9 @@
+services:
+  organizr v2:
+    image: organizr/organizr:latest
+    ports:
+    - 7171:80/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Organizr
+      container: /config
+version: '3.3'

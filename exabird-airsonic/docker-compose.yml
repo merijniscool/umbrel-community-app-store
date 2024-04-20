@@ -1,0 +1,12 @@
+services:
+  airsonic:
+    image: linuxserver/airsonic:latest
+    ports:
+    - 4040/tcp
+    volumes:
+    - container: /music
+    - container: /playlists
+    - container: /podcasts
+    - container: /media
+    - container: /config
+version: '3.3'

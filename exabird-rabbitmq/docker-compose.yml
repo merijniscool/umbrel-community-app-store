@@ -1,0 +1,9 @@
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    ports:
+    - 5671/tcp
+    - 5672/tcp
+    volumes:
+    - container: /var/lib/rabbitmq
+version: '3.3'

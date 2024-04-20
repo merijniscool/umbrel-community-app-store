@@ -1,0 +1,10 @@
+services:
+  mylar:
+    image: linuxserver/mylar:latest
+    ports:
+    - 8090/tcp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /comics
+version: '3.3'

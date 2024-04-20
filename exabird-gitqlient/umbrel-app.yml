@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[GitQlient](https://github.com/francescmm/GitQlient) is a multi-platform
+  Git client originally forked from QGit. Nowadays it goes beyond of just a fork and
+  adds a lot of new functionality.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/gitqlient-icon.png
+id: exabird-gitqlient
+manifestVersion: 1
+name: Gitqlient
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-gitqlient
+submission: https://github.com/exabird/umbrel-exabird-gitqlient
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-gitqlient/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

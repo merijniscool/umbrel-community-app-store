@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: OpenVPN Access Server is a full featured secure network tunneling VPN
+  software solution that integrates OpenVPN server capabilities, enterprise management
+  capabilities, simplified OpenVPN Connect UI, and OpenVPN Client software packages
+  that accommodate Windows, MAC, Linux, Android, and iOS environments.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/openvpn-as-icon.png
+id: exabird-openvpn-access-server
+manifestVersion: 1
+name: OpenVPN Access Server
+path: ''
+port: '943'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-openvpn-access-server
+submission: https://github.com/exabird/umbrel-exabird-openvpn-access-server
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-openvpn-access-server/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

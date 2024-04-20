@@ -1,0 +1,11 @@
+services:
+  homarr-secured:
+    image: ghcr.io/ajnart/homarr:latest
+    ports:
+    - 7575:7575/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Homarr/configs
+      container: /app/data/configs
+    - bind: /portainer/Files/AppData/Config/Homarr/icons
+      container: /app/public/icons
+version: '3.3'

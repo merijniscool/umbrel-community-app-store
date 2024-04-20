@@ -1,0 +1,9 @@
+services:
+  tiddlywiki:
+    image: mazzolino/tiddlywiki:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/TiddlyWiki
+      container: /var/lib/tiddlywiki
+version: '3.3'

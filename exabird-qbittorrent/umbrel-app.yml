@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "The qBittorrent project aims to provide an open-source software alternative\
+  \ to \xEF\xBF\xBDTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar\
+  \ library."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/qbittorrent-icon.png
+id: exabird-qbittorrent
+manifestVersion: 1
+name: qbittorrent
+path: ''
+port: 6881/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-qbittorrent
+submission: https://github.com/exabird/umbrel-exabird-qbittorrent
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-qbittorrent/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

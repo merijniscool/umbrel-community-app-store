@@ -1,0 +1,10 @@
+services:
+  system stats oled display:
+    image: mklements/oled_stats:latest
+    ports: []
+    volumes:
+    - bind: /etc/timezone
+      container: /etc/timezone
+    - bind: /etc/localtime
+      container: /etc/localtime
+version: '3.3'

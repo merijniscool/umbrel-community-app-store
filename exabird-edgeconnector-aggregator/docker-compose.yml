@@ -1,0 +1,11 @@
+services:
+  edgeconnector aggregator:
+    image: softingindustrial/edgeaggregator
+    ports:
+    - 443/tcp
+    - 8099/tcp
+    - 4897/tcp
+    volumes:
+    - container: /config
+    - container: /mqtt
+version: '3.3'

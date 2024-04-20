@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Ferdium is a messaging browser that allows you to combine your favourite
+  messaging services into one application
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/ferdium/ferdium-server/raw/main/logo.png
+id: exabird-ferdium
+manifestVersion: 1
+name: Ferdium
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-ferdium
+submission: https://github.com/exabird/umbrel-exabird-ferdium
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-ferdium/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

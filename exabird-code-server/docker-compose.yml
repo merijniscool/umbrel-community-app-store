@@ -1,0 +1,9 @@
+services:
+  code server:
+    image: linuxserver/code-server:latest
+    ports:
+    - 8443:8443/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/Code-Server
+      container: /config
+version: '3.3'

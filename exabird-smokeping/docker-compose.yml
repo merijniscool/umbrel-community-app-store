@@ -1,0 +1,9 @@
+services:
+  smokeping:
+    image: linuxserver/smokeping:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /config
+    - container: /data
+version: '3.3'

@@ -1,0 +1,9 @@
+services:
+  nextcloud:
+    image: linuxserver/nextcloud:latest
+    ports:
+    - 443/tcp
+    volumes:
+    - container: /config
+    - container: /data
+version: '3.3'

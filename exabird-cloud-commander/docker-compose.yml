@@ -1,0 +1,13 @@
+services:
+  cloud commander:
+    image: coderaiser/cloudcmd
+    ports:
+    - 8000/tcp
+    volumes:
+    - bind: /opt/mediadepot/apps
+      container: /media/host/opt/mediadepot
+    - bind: /media/storage
+      container: /media/host/media/storage
+    - bind: /media/temp
+      container: /media/host/media/temp
+version: '3.3'

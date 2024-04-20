@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[LibreWolf](https://librewolf.net/) is a custom and independent version
+  of Firefox, with the primary goals of privacy, security and user freedom. LibreWolf
+  also aims to remove all the telemetry, data collection and annoyances, as well as
+  disabling anti-freedom features like DRM.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/librewolf-logo.png
+id: exabird-librewolf
+manifestVersion: 1
+name: Librewolf
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-librewolf
+submission: https://github.com/exabird/umbrel-exabird-librewolf
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-librewolf/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

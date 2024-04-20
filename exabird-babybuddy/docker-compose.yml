@@ -1,0 +1,9 @@
+services:
+  babybuddy:
+    image: linuxserver/babybuddy:latest
+    ports:
+    - 8000:8000/tcp
+    volumes:
+    - bind: /volume1/docker/babybuddy/config
+      container: /config
+version: '3.3'

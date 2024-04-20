@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "Calibre Web is a web app providing a clean interface for browsing, reading\
+  \ and downloading eBooks using an existing Calibre database.\n\n  [br][br]\n  [b][u][span\
+  \ style='color: #E80000;']Configuration[/span][/u][/b][br]\n  [b]/config[/b] Where\
+  \ Calibre-web should store it's database[br]\n  [b]/books[/b] Path to your calibre\
+  \ library metadata.db file[br]"
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/calibre-web-icon.png
+id: exabird-calibre-web
+manifestVersion: 1
+name: calibre-web
+path: ''
+port: 8083/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-calibre-web
+submission: https://github.com/exabird/umbrel-exabird-calibre-web
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-calibre-web/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[FreeTube](https://freetubeapp.io/) is a feature-rich and user-friendly
+  YouTube client with a focus on privacy.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/freetube-logo.png
+id: exabird-freetube
+manifestVersion: 1
+name: Freetube
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-freetube
+submission: https://github.com/exabird/umbrel-exabird-freetube
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-freetube/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

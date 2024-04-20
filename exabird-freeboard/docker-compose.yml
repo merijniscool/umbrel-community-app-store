@@ -1,0 +1,7 @@
+services:
+  freeboard:
+    image: example/example:latest
+    ports:
+    - 8000:80/tcp
+    volumes: []
+version: '3.3'

@@ -1,0 +1,9 @@
+services:
+  davos:
+    image: linuxserver/davos:latest
+    ports:
+    - 8080/tcp
+    volumes:
+    - container: /config
+    - container: /download
+version: '3.3'

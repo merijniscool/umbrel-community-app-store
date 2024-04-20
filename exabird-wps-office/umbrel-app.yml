@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[WPS Office](https://www.wps.com/) is a lightweight, feature-rich comprehensive
+  office suite with high compatibility. As a handy and professional office software,
+  WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF
+  to improve your work efficiency.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wps-office-icon.png
+id: exabird-wps-office
+manifestVersion: 1
+name: Wps-office
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-wps-office
+submission: https://github.com/exabird/umbrel-exabird-wps-office
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-wps-office/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

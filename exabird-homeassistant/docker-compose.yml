@@ -1,0 +1,9 @@
+services:
+  homeassistant:
+    image: linuxserver/homeassistant:latest
+    ports:
+    - 8123:8123/tcp
+    volumes:
+    - bind: /volume1/docker/homeassistant/config
+      container: /config
+version: '3.3'

@@ -1,0 +1,13 @@
+services:
+  sickgear:
+    image: linuxserver/sickgear:latest
+    ports:
+    - 8081:8081/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/SickGear
+      container: /config
+    - bind: /portainer/TV
+      container: /tv
+    - bind: /portainer/Downloads
+      container: /downloads
+version: '3.3'

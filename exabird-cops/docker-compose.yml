@@ -1,0 +1,9 @@
+services:
+  cops:
+    image: linuxserver/cops:latest
+    ports:
+    - 80/tcp
+    volumes:
+    - container: /books
+    - container: /config
+version: '3.3'

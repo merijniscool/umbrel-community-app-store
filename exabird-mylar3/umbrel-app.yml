@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Mylar3](https://github.com/mylar3/mylar3) is an automated Comic Book
+  downloader (cbr/cbz) for use with NZB and torrents written in python. It supports
+  SABnzbd, NZBGET, and many torrent clients in addition to DDL.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mylar-icon.png
+id: exabird-mylar3
+manifestVersion: 1
+name: Mylar3
+path: ''
+port: '8090'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-mylar3
+submission: https://github.com/exabird/umbrel-exabird-mylar3
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-mylar3/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

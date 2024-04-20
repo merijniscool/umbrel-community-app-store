@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Peer-to-peer file transfers in your browser
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/kern/filepizza/master/src/static/images/wordmark.png
+id: exabird-filepizza
+manifestVersion: 1
+name: Filepizza
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-filepizza
+submission: https://github.com/exabird/umbrel-exabird-filepizza
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-filepizza/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

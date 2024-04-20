@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: CouchPotato (CP) is an automatic NZB and torrent downloader. You can
+  keep a "movies I want"-list and it will search for NZBs/torrents of these movies
+  every X hours. Once a movie is found, it will send it to SABnzbd or download the
+  torrent to a specified directory.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/couchpotato-icon.png
+id: exabird-couchpotato
+manifestVersion: 1
+name: couchpotato
+path: ''
+port: 5050/tcp
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-couchpotato
+submission: https://github.com/exabird/umbrel-exabird-couchpotato
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-couchpotato/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

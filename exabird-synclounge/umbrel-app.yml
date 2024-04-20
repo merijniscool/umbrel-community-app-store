@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[Synclounge](https://github.com/samcm/synclounge) is a third party tool
+  that allows you to watch Plex in sync with your friends/family, wherever you are.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/synclounge-banner.png
+id: exabird-synclounge
+manifestVersion: 1
+name: Synclounge
+path: ''
+port: '8088'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-synclounge
+submission: https://github.com/exabird/umbrel-exabird-synclounge
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-synclounge/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,25 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: '[PairDrop](https://github.com/schlagmichdoch/PairDrop) is a sublime
+  alternative to AirDrop that works on all platforms. Send images, documents or text
+  via peer to peer connection to devices in the same local network/Wi-Fi or to paired
+  devices.'
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/schlagmichdoch/PairDrop/master/public/images/android-chrome-512x512.png
+id: exabird-pairdrop
+manifestVersion: 1
+name: Pairdrop
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-pairdrop
+submission: https://github.com/exabird/umbrel-exabird-pairdrop
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-pairdrop/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

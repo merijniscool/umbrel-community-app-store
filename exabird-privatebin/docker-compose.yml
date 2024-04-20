@@ -1,0 +1,11 @@
+services:
+  privatebin:
+    image: privatebin/nginx-fpm-alpine:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/PrivateBin
+      container: /srv/data
+    - bind: /portainer/Files/AppData/Config/PrivateBin
+      container: /srv/cfg
+version: '3.3'

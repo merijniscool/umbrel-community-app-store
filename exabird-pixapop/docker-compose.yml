@@ -1,0 +1,11 @@
+services:
+  pixapop:
+    image: linuxserver/pixapop:latest
+    ports:
+    - 80:80/tcp
+    volumes:
+    - bind: /volume1/docker/pixapop/config
+      container: /config
+    - bind: /volume1/docker/pixapop/photos
+      container: /photos
+version: '3.3'

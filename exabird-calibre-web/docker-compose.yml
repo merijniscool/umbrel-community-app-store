@@ -1,0 +1,9 @@
+services:
+  calibre-web:
+    image: linuxserver/calibre-web:latest
+    ports:
+    - 8083/tcp
+    volumes:
+    - container: /books
+    - container: /config
+version: '3.3'

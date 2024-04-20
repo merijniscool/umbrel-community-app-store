@@ -1,0 +1,12 @@
+services:
+  transmission:
+    image: linuxserver/transmission:latest
+    ports:
+    - 9091/tcp
+    - 51413/tcp
+    - 51413/udp
+    volumes:
+    - container: /config
+    - container: /downloads
+    - container: /watch
+version: '3.3'

@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: This is a powerful locally hosted web based PDF manipulation tool using
+  docker that allows you to perform various operations on PDF files, such as splitting
+  merging, converting, reorganizing, adding images, rotating, compressing, and more.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/docs/stirling.png
+id: exabird-stirling-pdf
+manifestVersion: 1
+name: Stirling-PDF
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-stirling-pdf
+submission: https://github.com/exabird/umbrel-exabird-stirling-pdf
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-stirling-pdf/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

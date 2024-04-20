@@ -1,0 +1,9 @@
+services:
+  pydio-cells:
+    image: linuxserver/pydio-cells:latest
+    ports:
+    - 8080:8080/tcp
+    volumes:
+    - bind: /volume1/docker/pydio-cells/config
+      container: /config
+version: '3.3'

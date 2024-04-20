@@ -1,0 +1,38 @@
+services:
+  vsftpd ftp server:
+    image: delfer/alpine-ftp-server
+    ports:
+    - 21/tcp
+    - 21000/tcp
+    - 21001/tcp
+    - 21002/tcp
+    - 21003/tcp
+    - 21004/tcp
+    - 21005/tcp
+    - 21006/tcp
+    - 21007/tcp
+    - 21008/tcp
+    - 21009/tcp
+    - 21010/tcp
+    volumes:
+    - bind: /media/storage/tvshows
+      container: /home/depot/tvshows
+    - bind: /media/storage/movies
+      container: /home/depot/movies
+    - bind: /media/storage/music
+      container: /home/depot/music
+    - bind: /media/storage/ebooks
+      container: /home/depot/ebooks
+    - bind: /media/storage/photos
+      container: /home/depot/photos
+    - bind: /media/storage/documents
+      container: /home/depot/documents
+    - bind: /media/storage/downloads
+      container: /home/depot/downloads
+    - bind: /media/storage/software
+      container: /home/depot/software
+    - bind: /media/temp/blackhole
+      container: /home/depot/blackhole
+    - bind: /media/temp/processing
+      container: /home/depot/processing
+version: '3.3'

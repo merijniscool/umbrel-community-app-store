@@ -1,0 +1,9 @@
+services:
+  huginn:
+    image: huginn/huginn:latest
+    ports:
+    - 3000:3000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/huginn
+      container: /var/lib/mysql
+version: '3.3'

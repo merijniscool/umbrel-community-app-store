@@ -1,0 +1,9 @@
+services:
+  mealie:
+    image: hkotel/mealie:v0.4.3
+    ports:
+    - 9925:9000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/mealie
+      container: /app/data
+version: '3.3'

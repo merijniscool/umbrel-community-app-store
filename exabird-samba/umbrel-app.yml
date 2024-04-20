@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Samba has provided secure, stable and fast file and print services for
+  all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows,
+  OS/2, Linux and many others.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/samba.png
+id: exabird-samba
+manifestVersion: 1
+name: Samba
+path: ''
+port: '139'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-samba
+submission: https://github.com/exabird/umbrel-exabird-samba
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-samba/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

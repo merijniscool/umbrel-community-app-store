@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Budibase allows no-code users to build apps quickly, with more functionality
+  available with a little bit of inline code.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://files.readme.io/593b386-budibase-logo-website.svg
+id: exabird-budibase
+manifestVersion: 1
+name: Budibase
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-budibase
+submission: https://github.com/exabird/umbrel-exabird-budibase
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-budibase/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

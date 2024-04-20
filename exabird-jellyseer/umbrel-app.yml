@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Jellyseerr is a free and open source fork of Overseerr for managing requests
+  for your media library. It integrates with your existing services, such as Sonarr,
+  Radarr, and Jellyfin!
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Fallenbagel/jellyseerr/develop/public/logo_full.svg
+id: exabird-jellyseer
+manifestVersion: 1
+name: Jellyseer
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-jellyseer
+submission: https://github.com/exabird/umbrel-exabird-jellyseer
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-jellyseer/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

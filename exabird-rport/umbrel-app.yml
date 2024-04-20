@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: RPort is free remote access and remote management, now acquired by RealVNC
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_634014ae8000cebecce8a571f9ea316f/cloudradar-gmbh-rport.png
+id: exabird-rport
+manifestVersion: 1
+name: Rport
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-rport
+submission: https://github.com/exabird/umbrel-exabird-rport
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-rport/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

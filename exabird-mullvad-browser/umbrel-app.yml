@@ -1,0 +1,26 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "The [Mullvad Browser](https://mullvad.net/en/browser) is a privacy-focused\
+  \ web browser developed in a collaboration between Mullvad VPN and the Tor Project.\
+  \ It\u2019s designed to minimize tracking and fingerprinting. You could say it\u2019\
+  s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy\
+  \ VPN."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mullvad-browser-logo.png
+id: exabird-mullvad-browser
+manifestVersion: 1
+name: Mullvad-browser
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-mullvad-browser
+submission: https://github.com/exabird/umbrel-exabird-mullvad-browser
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-mullvad-browser/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

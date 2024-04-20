@@ -1,0 +1,24 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Docker Container Stats is a web interface for viewing historical and
+  current statistics per docker container (cpu, mem, net i/o, block i/o) - in a docker
+  container.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/Poeschl/Hassio-Addons/master/container-stats/logo.png
+id: exabird-docker-container-stats
+manifestVersion: 1
+name: Docker Container Stats
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-docker-container-stats
+submission: https://github.com/exabird/umbrel-exabird-docker-container-stats
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-docker-container-stats/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

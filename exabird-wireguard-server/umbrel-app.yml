@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: Fast VPN Server with easy to use User Interface
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/wireguard.png
+id: exabird-wireguard-server
+manifestVersion: 1
+name: Wireguard Server
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-wireguard-server
+submission: https://github.com/exabird/umbrel-exabird-wireguard-server
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-wireguard-server/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

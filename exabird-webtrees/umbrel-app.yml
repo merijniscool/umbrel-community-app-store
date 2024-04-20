@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "Webtrees is the web\u2019s leading online collaborative genealogy application.\
+  \ [GEDCOM files support]"
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_webtrees.svg/400px-Logo_webtrees.svg.png
+id: exabird-webtrees
+manifestVersion: 1
+name: Webtrees
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-webtrees
+submission: https://github.com/exabird/umbrel-exabird-webtrees
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-webtrees/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

@@ -1,0 +1,7 @@
+services:
+  go-socks5-proxy:
+    image: serjs/go-socks5-proxy:latest
+    ports:
+    - 8080:8080/tcp
+    volumes: []
+version: '3.3'

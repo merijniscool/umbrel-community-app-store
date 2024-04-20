@@ -1,0 +1,23 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented
+  manager.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://github.com/louislam/dockge/raw/master/frontend/public/icon.svg
+id: exabird-dockge
+manifestVersion: 1
+name: Dockge
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-dockge
+submission: https://github.com/exabird/umbrel-exabird-dockge
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-dockge/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

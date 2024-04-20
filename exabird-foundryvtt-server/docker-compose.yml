@@ -1,0 +1,9 @@
+services:
+  foundryvtt server:
+    image: felddy/foundryvtt:release
+    ports:
+    - 30000:30000/tcp
+    volumes:
+    - bind: /portainer/Files/AppData/Config/foundryvtt
+      container: /data
+version: '3.3'

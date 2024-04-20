@@ -1,0 +1,22 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: A quick way to display system stats on a 128x64 I2C OLED display.
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://camo.githubusercontent.com/4cf4aaa1e53612347e4d48f152d6d4eea0ce93a6ecacacaa9d44061d0994b408/68747470733a2f2f7777772e7468652d6469792d6c6966652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f30392f3138373137323831322d64653264653635632d626433302d343065372d613835322d3264343234656463323761622e6a7067
+id: exabird-system-stats-oled-display
+manifestVersion: 1
+name: System Stats OLED display
+path: ''
+port: '80'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-system-stats-oled-display
+submission: https://github.com/exabird/umbrel-exabird-system-stats-oled-display
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-system-stats-oled-display/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com

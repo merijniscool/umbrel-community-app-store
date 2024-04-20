@@ -1,0 +1,28 @@
+category: Utility
+defaultPassword: ''
+defaultUsername: ''
+dependencies: []
+description: "[Wireshark](https://www.wireshark.org/) is the world\u2019s foremost\
+  \ and widely-used network protocol analyzer. It lets you see what\u2019s happening\
+  \ on your network at a microscopic level and is the de facto (and often de jure)\
+  \ standard across many commercial and non-profit enterprises, government agencies,\
+  \ and educational institutions. Wireshark development thrives thanks to the volunteer\
+  \ contributions of networking experts around the globe and is the continuation of\
+  \ a project started by Gerald Combs in 1998."
+developer: Community Developer
+gallery:
+- https://example.com/path/to/screenshot1.png
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/wireshark-icon.png
+id: exabird-wireshark
+manifestVersion: 1
+name: Wireshark
+path: ''
+port: '3000'
+releaseNotes: Initial release of this app on Umbrel.
+repo: https://github.com/exabird/umbrel-exabird-wireshark
+submission: https://github.com/exabird/umbrel-exabird-wireshark
+submitter: Community Submitter
+support: https://github.com/exabird/umbrel-exabird-wireshark/issues
+tagline: A generic application deployed via Umbrel
+version: '1.0'
+website: https://example.com
