@@ -1,8 +1,8 @@
 services:
   webgrabplus:
     image: linuxserver/webgrabplus:latest
-    ports: []
+    ports:
+      - "No ports provided"
     volumes:
-    - container: /config
-    - container: /data
-version: '3.3'
+      - "/portainer/Files/AppData/Config/WebGrabPlus:/config"
+    restart: unless-stopped

@@ -2,8 +2,7 @@ services:
   musicbrainz:
     image: linuxserver/musicbrainz:latest
     ports:
-    - 5000/tcp
+      - "5000:5000/tcp"
     volumes:
-    - container: /config
-    - container: /data
-version: '3.3'
+      - "/portainer/Files/AppData/Config/MusicBrainz:/config"
+    restart: unless-stopped

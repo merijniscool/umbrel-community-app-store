@@ -1,10 +1,8 @@
 services:
   radarr:
-    image: linuxserver/radarr:latest
+    image: hotio/radarr:release
     ports:
-    - 7878/tcp
+      - "7878:7878/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /movies
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Radarr:/config"
+    restart: unless-stopped

@@ -1,9 +1,0 @@
-services:
-  gotify:
-    image: gotify/server-arm7:latest
-    ports:
-    - 9008:80/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Config/gotify
-      container: /app/data
-version: '3.3'

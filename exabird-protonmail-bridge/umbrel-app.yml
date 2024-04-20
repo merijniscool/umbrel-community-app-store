@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: This is an unofficial Docker container of the ProtonMail Bridge. Some
-  of the scripts are based on Hendrik Meyer's work.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/protonmail-bridge.png
-id: exabird-protonmail-bridge
-manifestVersion: 1
-name: ProtonMail Bridge
-path: ''
-port: 143/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-protonmail-bridge
-submission: https://github.com/exabird/umbrel-exabird-protonmail-bridge
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-protonmail-bridge/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: protonmail-bridge
+description: This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/protonmail-bridge.png
+developer: Umbrel Community
+support: No support URL provided

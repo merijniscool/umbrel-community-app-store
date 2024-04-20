@@ -1,0 +1,8 @@
+services:
+  mcmyadmin2:
+    image: linuxserver/mcmyadmin2:latest
+    ports:
+      - "8080:8080/tcp"
+    volumes:
+      - "/path/to/bind:/minecraft"
+    restart: unless-stopped

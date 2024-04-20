@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Appsmith (www.appsmith.com) is the first open-source low-code tool that
-  helps developers build dashboards and admin panels very quickly.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: appsmith
+description: Appsmith (www.appsmith.com) is the first open-source low-code tool that helps developers build dashboards and admin panels very quickly.
 icon: https://cdn-images.himalayas.app/vr60veq4neiptamhqm6qxwi3toi3
-id: exabird-appsmith
-manifestVersion: 1
-name: Appsmith
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-appsmith
-submission: https://github.com/exabird/umbrel-exabird-appsmith
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-appsmith/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

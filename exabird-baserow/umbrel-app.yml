@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Open source no-code database and Airtable alternative.Create your own
-  online database without technical experience. Our user friendly no-code tool gives
-  you the powers of a developer without leaving your browser.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://].io/_nuxt/img/logo.1421f77.svg
-id: exabird-baserow
-manifestVersion: 1
 name: Baserow
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-baserow
-submission: https://github.com/exabird/umbrel-exabird-baserow
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-baserow/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Open source no-code database and Airtable alternative.Create your own online database without technical experience. Our user friendly no-code tool gives you the powers of a developer without leaving your browser.
+icon: https://].io/_nuxt/img/logo.1421f77.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

@@ -2,10 +2,7 @@ services:
   sabnzbd:
     image: linuxserver/sabnzbd:latest
     ports:
-    - 8080/tcp
-    - 9090/tcp
+      - "8080:8080/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /incomplete-downloads
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Sabnzbd:/config"
+    restart: unless-stopped

@@ -1,9 +1,0 @@
-services:
-  changedetection.io:
-    image: linuxserver/changedetection.io:latest
-    ports:
-    - 5000:5000/tcp
-    volumes:
-    - bind: /volume1/docker/changedetection.io/config
-      container: /config
-version: '3.3'

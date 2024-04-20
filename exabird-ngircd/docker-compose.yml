@@ -1,9 +1,0 @@
-services:
-  ngircd:
-    image: linuxserver/ngircd:latest
-    ports:
-    - 6667:6667/tcp
-    volumes:
-    - bind: /volume1/docker/ngircd/config
-      container: /config
-version: '3.3'

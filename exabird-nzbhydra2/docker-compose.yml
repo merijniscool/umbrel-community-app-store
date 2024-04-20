@@ -1,0 +1,8 @@
+services:
+  nzbhydra2:
+    image: linuxserver/nzbhydra2:latest
+    ports:
+      - "5076:5076/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/Nzbhydra2:/config"
+    restart: unless-stopped

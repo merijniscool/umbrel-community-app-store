@@ -1,8 +1,0 @@
-services:
-  ddclient:
-    image: linuxserver/ddclient:latest
-    ports: []
-    volumes:
-    - bind: /volume1/docker/ddclient/config
-      container: /config
-version: '3.3'

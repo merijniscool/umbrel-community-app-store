@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol
-  to sync files and folders between all of your devices. There are both free and paid
-  versions, this container supports both.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/resilio.png
-id: exabird-resilio-sync
-manifestVersion: 1
 name: resilio-sync
-path: ''
-port: 8888/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-resilio-sync
-submission: https://github.com/exabird/umbrel-exabird-resilio-sync
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-resilio-sync/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Resilio Sync (formerly BitTorrent Sync) uses the BitTorrent protocol to sync files and folders between all of your devices. There are both free and paid versions, this container supports both.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/resilio.png
+developer: Umbrel Community
+support: No support URL provided

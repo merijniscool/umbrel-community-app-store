@@ -1,0 +1,5 @@
+name: changedetection
+description: Self-hosted website change detection monitoring.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/changedetection-custom.png
+developer: Umbrel Community
+support: No support URL provided

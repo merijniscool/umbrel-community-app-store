@@ -1,6 +1,0 @@
-services:
-  softing edgeconnector 840d:
-    image: example/example:latest
-    ports: []
-    volumes: []
-version: '3.3'

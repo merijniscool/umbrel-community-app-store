@@ -1,10 +1,8 @@
 services:
   lidarr:
-    image: linuxserver/lidarr:latest
+    image: hotio/lidarr:release
     ports:
-    - 8686/tcp
+      - "8686:8686/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /music
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Lidarr:/config"
+    restart: unless-stopped

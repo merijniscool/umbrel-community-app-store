@@ -2,8 +2,7 @@ services:
   lychee:
     image: linuxserver/lychee:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /config
-    - container: /pictures
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Lychee:/config"
+    restart: unless-stopped

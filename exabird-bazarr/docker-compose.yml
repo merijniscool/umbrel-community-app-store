@@ -1,13 +1,8 @@
 services:
   bazarr:
-    image: hotio/bazarr:release
+    image: No image provided
     ports:
-    - 6767:6767/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Bazarr
-      container: /config
-    - bind: /portainer/TV
-      container: /tv
-    - bind: /portainer/Movies
-      container: /movies
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

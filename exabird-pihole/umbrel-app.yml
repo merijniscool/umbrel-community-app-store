@@ -1,0 +1,5 @@
+name: pihole
+description: A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/pihole.png
+developer: Umbrel Community
+support: No support URL provided

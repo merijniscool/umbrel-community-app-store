@@ -1,9 +1,0 @@
-services:
-  build-agent:
-    image: linuxserver/build-agent:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/build-agent/config
-      container: /config
-version: '3.3'

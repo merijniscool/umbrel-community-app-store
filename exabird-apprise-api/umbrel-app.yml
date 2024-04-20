@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Apprise API was designed to easily fit into existing (and new) eco-systems
-  that are looking for a simple notification solution.70+ services
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: apprise-api
+description: Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.70+ services
 icon: https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png
-id: exabird-apprise-api
-manifestVersion: 1
-name: Apprise-API
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-apprise-api
-submission: https://github.com/exabird/umbrel-exabird-apprise-api
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-apprise-api/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

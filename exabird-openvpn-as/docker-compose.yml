@@ -2,9 +2,7 @@ services:
   openvpn-as:
     image: linuxserver/openvpn-as:latest
     ports:
-    - 943/tcp
-    - 9443/tcp
-    - 1194/udp
+      - "943:943/tcp"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/OpenVPN-AS:/config"
+    restart: unless-stopped

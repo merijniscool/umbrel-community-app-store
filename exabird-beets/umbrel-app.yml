@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: The purpose of beets is to get your music collection right once and for
-  all. It catalogs your collection, automatically improving its metadata as it goes
-  using the MusicBrainz database. Then it provides a bouquet of tools for manipulating
-  and accessing your music.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/beets-icon.png
-id: exabird-beets
-manifestVersion: 1
 name: beets
-path: ''
-port: 8337/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-beets
-submission: https://github.com/exabird/umbrel-exabird-beets
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-beets/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. Then it provides a bouquet of tools for manipulating and accessing your music.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/beets-icon.png
+developer: Umbrel Community
+support: No support URL provided

@@ -2,7 +2,7 @@ services:
   piwigo:
     image: linuxserver/piwigo:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/PiWigo:/config"
+    restart: unless-stopped

@@ -1,8 +1,0 @@
-services:
-  homebridge - debian:
-    image: homebridge/homebridge:ubuntu-arm32v7
-    ports: []
-    volumes:
-    - bind: /portainer/Files/AppData/Config/debian-homebridge
-      container: /homebridge
-version: '3.3'

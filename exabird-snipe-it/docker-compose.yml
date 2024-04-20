@@ -1,9 +1,0 @@
-services:
-  snipe-it:
-    image: linuxserver/snipe-it:latest
-    ports:
-    - 8080:80/tcp
-    volumes:
-    - bind: /volume1/docker/snipe-it/config
-      container: /config
-version: '3.3'

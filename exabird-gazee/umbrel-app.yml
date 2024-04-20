@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: A WebApp Comic Reader for your favorite digital comics. Reach and read
-  your comic library from any web connected device with a modern web browser
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/gazee-logo.png
-id: exabird-gazee
-manifestVersion: 1
 name: gazee
-path: ''
-port: 4242/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-gazee
-submission: https://github.com/exabird/umbrel-exabird-gazee
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-gazee/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: A WebApp Comic Reader for your favorite digital comics. Reach and read your comic library from any web connected device with a modern web browser.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/gazee-logo.png
+developer: Umbrel Community
+support: No support URL provided

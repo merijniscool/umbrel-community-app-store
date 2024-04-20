@@ -1,26 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: "Transmission is designed for easy, powerful use. Transmission has the\
-  \ features you want from a BitTorrent client: encryption, a web interface, peer\
-  \ exchange, magnet links, DHT, \xEF\xBF\xBDTP, UPnP and NAT-PMP port forwarding,\
-  \ webseed support, watch directories, tracker editing, global and per-torrent speed\
-  \ limits, and more."
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/transmission-icon.png
-id: exabird-transmission
-manifestVersion: 1
 name: transmission
-path: ''
-port: 9091/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-transmission
-submission: https://github.com/exabird/umbrel-exabird-transmission
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-transmission/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Transmission is designed for easy, powerful use. Transmission has the features you want from a BitTorrent client: encryption, a web interface, peer exchange, magnet links, DHT, µTP, UPnP and NAT-PMP port forwarding, webseed support, watch directories, tracker editing, global and per-torrent speed limits, and more.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/transmission-icon.png
+developer: Umbrel Community
+support: No support URL provided

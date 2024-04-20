@@ -1,9 +1,0 @@
-services:
-  elasticsearch:
-    image: elasticsearch:latest
-    ports:
-    - 9200/tcp
-    - 9300/tcp
-    volumes:
-    - container: /usr/share/elasticsearch/data
-version: '3.3'

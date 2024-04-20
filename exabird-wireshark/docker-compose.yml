@@ -1,9 +1,0 @@
-services:
-  wireshark:
-    image: linuxserver/wireshark:latest
-    ports:
-    - 3000:3000/tcp
-    volumes:
-    - bind: /volume1/docker/wireshark/config
-      container: /config
-version: '3.3'

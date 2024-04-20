@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: NZBGet is a usenet downloader, written in C++ and designed with performance
-  in mind to achieve maximum download speed by using very little system resources.
-  It supports all platforms including Windows, Mac, Linux and works on all devices
-  including PC, NAS, WLAN routers and media players
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/nzbget-icon.png
-id: exabird-nzbget
-manifestVersion: 1
 name: nzbget
-path: ''
-port: 6789/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-nzbget
-submission: https://github.com/exabird/umbrel-exabird-nzbget
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-nzbget/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: NZBGet is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources. It supports all platforms including Windows, Mac, Linux and works on all devices including PC, NAS, WLAN routers and media players.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/nzbget-icon.png
+developer: Umbrel Community
+support: No support URL provided

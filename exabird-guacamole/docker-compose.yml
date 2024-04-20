@@ -2,8 +2,7 @@ services:
   guacamole:
     image: oznu/guacamole:latest
     ports:
-    - 8080:8080/tcp
+      - "8080:8080/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Guacamole
-      container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Guacamole:/config"
+    restart: unless-stopped

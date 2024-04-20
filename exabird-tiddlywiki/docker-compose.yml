@@ -2,8 +2,7 @@ services:
   tiddlywiki:
     image: mazzolino/tiddlywiki:latest
     ports:
-    - 8080:8080/tcp
+      - "8080:8080/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/TiddlyWiki
-      container: /var/lib/tiddlywiki
-version: '3.3'
+      - "/portainer/Files/AppData/Config/TiddlyWiki:/var/lib/tiddlywiki"
+    restart: unless-stopped

@@ -1,9 +1,8 @@
 services:
-  uptime kuma:
-    image: louislam/uptime-kuma:latest
+  uptime-kuma:
+    image: No image provided
     ports:
-    - 3001:3001/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/UptimeKuma
-      container: /app/data
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

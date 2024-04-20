@@ -1,8 +1,0 @@
-services:
-  solr:
-    image: solr:latest
-    ports:
-    - 8983/tcp
-    volumes:
-    - container: /opt/solr/mydata
-version: '3.3'

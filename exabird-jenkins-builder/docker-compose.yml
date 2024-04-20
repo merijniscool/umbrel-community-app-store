@@ -1,9 +1,0 @@
-services:
-  jenkins-builder:
-    image: linuxserver/jenkins-builder:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/jenkins-builder/config
-      container: /config
-version: '3.3'

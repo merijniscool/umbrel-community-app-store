@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: WordPress is the simplest, most popular way to create your own website
-  or blog.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: wordpress
+description: WordPress is the simplest, most popular way to create your own website or blog.
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/800px-WordPress_blue_logo.svg.png
-id: exabird-wordpress
-manifestVersion: 1
-name: Wordpress
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-wordpress
-submission: https://github.com/exabird/umbrel-exabird-wordpress
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-wordpress/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

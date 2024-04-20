@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Mumble is a voicechat program for gamers written on top of Qt and Opus.
-  Murmur is the server backend for Mumble.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/Mumble-logo.png
-id: exabird-murmur
-manifestVersion: 1
-name: Murmur
-path: ''
-port: '64738'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-murmur
-submission: https://github.com/exabird/umbrel-exabird-murmur
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-murmur/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: murmur
+description: Mumble is a voicechat program for gamers written on top of Qt and Opus. Murmur is the server backend for Mumble.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/Mumble-logo.png
+developer: Umbrel Community
+support: No support URL provided

@@ -1,9 +1,0 @@
-services:
-  terraria server {shmolf}:
-    image: passivelemon/terraria-docker:latest
-    ports:
-    - 7777:7777/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Libraries/StirlingPDF/tessdata
-      container: /usr/share/tesseract-ocr/5/tessdata
-version: '3.3'

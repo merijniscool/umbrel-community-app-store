@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: An easy to use Status Page for your websites and applications. Statping
-  will automatically fetch the application and render a beautiful status page with
-  tons of features for you to build an even better status page.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: statping
+description: An easy to use Status Page for your websites and applications. Statping will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page.
 icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/statping.png
-id: exabird-statping
-manifestVersion: 1
-name: Statping
-path: ''
-port: '4040'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-statping
-submission: https://github.com/exabird/umbrel-exabird-statping
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-statping/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: No support URL provided

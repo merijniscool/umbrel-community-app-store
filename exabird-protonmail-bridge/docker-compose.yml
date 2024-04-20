@@ -1,10 +1,8 @@
 services:
-  protonmail bridge:
+  protonmail-bridge:
     image: shenxn/protonmail-bridge:latest
     ports:
-    - 143/tcp
-    - 25/tcp
+      - "143/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/ProtonMail-Bridge
-      container: /root
-version: '3.3'
+      - "/portainer/Files/AppData/ProtonMail-Bridge:/root"
+    restart: unless-stopped

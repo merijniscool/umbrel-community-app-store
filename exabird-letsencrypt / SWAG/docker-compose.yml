@@ -1,0 +1,8 @@
+services:
+  letsencrypt / SWAG:
+    image: linuxserver/swag:latest
+    ports:
+      - "80/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/LetsEncrypt:/config"
+    restart: unless-stopped

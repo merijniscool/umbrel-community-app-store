@@ -1,9 +1,0 @@
-services:
-  pwndrop:
-    image: linuxserver/pwndrop:latest
-    ports:
-    - 8080:8080/tcp
-    volumes:
-    - bind: /volume1/docker/pwndrop/config
-      container: /config
-version: '3.3'

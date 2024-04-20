@@ -2,10 +2,7 @@ services:
   filebrowser:
     image: 80x86/filebrowser:latest
     ports:
-    - 8082:8082/tcp
+      - "8082:8082/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/FileBrowser
-      container: /config
-    - bind: /portainer/Files/AppData/Config
-      container: /myfiles
-version: '3.3'
+      - "/portainer/Files/AppData/Config/FileBrowser:/config"
+    restart: unless-stopped

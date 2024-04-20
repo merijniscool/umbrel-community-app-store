@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Nextcloud is an open source, self-hosted file sync and communication
-  app platform. Access and sync your files, contacts, calendars and communicate and
-  collaborate across your devices. You decide what happens with your data, where it
-  is and who can access it!
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/nextcloud-icon.png
-id: exabird-nextcloud
-manifestVersion: 1
 name: nextcloud
-path: ''
-port: 443/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-nextcloud
-submission: https://github.com/exabird/umbrel-exabird-nextcloud
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-nextcloud/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Where are your photos and documents? With Nextcloud you pick a server of your choice, at home, in a data center or at a provider. And that is where your files will be. Nextcloud runs on that server, protecting your data and giving you access from your desktop or mobile devices.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/nextcloud-icon.png
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

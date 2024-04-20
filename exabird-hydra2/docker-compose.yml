@@ -1,9 +1,0 @@
-services:
-  hydra2:
-    image: linuxserver/hydra2:latest
-    ports:
-    - 5076/tcp
-    volumes:
-    - container: /config
-    - container: /downloads
-version: '3.3'

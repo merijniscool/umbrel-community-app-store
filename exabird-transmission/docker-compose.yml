@@ -2,11 +2,7 @@ services:
   transmission:
     image: linuxserver/transmission:latest
     ports:
-    - 9091/tcp
-    - 51413/tcp
-    - 51413/udp
+      - "9091:9091/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /watch
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Transmission:/config"
+    restart: unless-stopped

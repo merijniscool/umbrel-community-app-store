@@ -1,9 +1,0 @@
-services:
-  readme-sync:
-    image: linuxserver/readme-sync:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/readme-sync/config
-      container: /config
-version: '3.3'

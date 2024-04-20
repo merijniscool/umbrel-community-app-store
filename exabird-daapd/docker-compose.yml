@@ -1,8 +1,8 @@
 services:
   daapd:
     image: linuxserver/daapd:latest
-    ports: []
+    ports:
+      - "No ports provided"
     volumes:
-    - container: /config
-    - container: /music
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Daapd:/config"
+    restart: unless-stopped

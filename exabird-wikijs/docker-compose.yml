@@ -1,11 +1,8 @@
 services:
-  wikijs:
+  Wikijs:
     image: linuxserver/wikijs:latest
     ports:
-    - 3100:3000/tcp
+      - "3100:3000/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Wikijs
-      container: /config
-    - bind: /portainer/Files/AppData/Config/Wikijs/data
-      container: /data
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Wikijs:/config"
+    restart: unless-stopped

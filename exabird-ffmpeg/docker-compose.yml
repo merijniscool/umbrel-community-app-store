@@ -1,9 +1,0 @@
-services:
-  ffmpeg:
-    image: linuxserver/ffmpeg:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/ffmpeg/config
-      container: /config
-version: '3.3'

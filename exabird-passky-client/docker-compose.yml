@@ -1,7 +1,0 @@
-services:
-  passky client:
-    image: rabbitcompany/passky-client:latest
-    ports:
-    - 8081:80/tcp
-    volumes: []
-version: '3.3'

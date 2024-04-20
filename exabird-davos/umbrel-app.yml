@@ -1,27 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: "davos is an FTP automation tool that periodically scans given host locations\
-  \ for new files. It can be configured for various purposes, including listening\
-  \ for specific files to appear in the host location, ready for it to download and\
-  \ then move, if required. It also supports completion notifications as well as downstream\
-  \ API calls, to further the workflow.\r\n\r\n/config : AppData Location\r\n/download\
-  \ : File Download Location"
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/davos.png
-id: exabird-davos
-manifestVersion: 1
 name: davos
-path: ''
-port: 8080/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-davos
-submission: https://github.com/exabird/umbrel-exabird-davos
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-davos/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: davos is an FTP automation tool that periodically scans given host locations for new files. It can be configured for various purposes, including listening for specific files to appear in the host location, ready for it to download and then move, if required. It also supports completion notifications as well as downstream API calls, to further the workflow.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/davos.png
+developer: Umbrel Community
+support: No support URL provided

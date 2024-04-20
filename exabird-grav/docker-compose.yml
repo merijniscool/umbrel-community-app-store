@@ -1,9 +1,0 @@
-services:
-  grav:
-    image: linuxserver/grav:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/grav/config
-      container: /config
-version: '3.3'

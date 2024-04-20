@@ -2,7 +2,7 @@ services:
   znc:
     image: linuxserver/znc:latest
     ports:
-    - 6501/tcp
+      - "6501:6501/tcp"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/ZNC:/config"
+    restart: unless-stopped

@@ -1,22 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
+name: librespeed
 description: A Free and Open Source Speedtest for HTML5 and more.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/speedtest.png
-id: exabird-librespeed
-manifestVersion: 1
-name: LibreSpeed
-path: ''
-port: 80/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-librespeed
-submission: https://github.com/exabird/umbrel-exabird-librespeed
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-librespeed/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/speedtest.png
+developer: Umbrel Community
+support: No support URL provided

@@ -1,8 +1,0 @@
-services:
-  floating license server:
-    image: softingindustrial/floating-license-server:latest
-    ports:
-    - 6200/tcp
-    volumes:
-    - container: /licsrv/licenses
-version: '3.3'

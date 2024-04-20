@@ -1,7 +1,8 @@
 services:
   plex:
     image: linuxserver/plex:latest
-    ports: []
+    ports:
+      - "No ports provided"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Plex:/config"
+    restart: unless-stopped

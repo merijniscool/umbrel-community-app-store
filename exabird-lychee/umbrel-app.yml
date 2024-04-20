@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Lychee is a free photo-management tool, which runs on your server or
-  web-space. Installing is a matter of seconds. Upload, manage and share photos like
-  from a native application. Lychee comes with everything you need and all your photos
-  are stored securely.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/lychee-icon.png
-id: exabird-lychee
-manifestVersion: 1
 name: lychee
-path: ''
-port: 80/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-lychee
-submission: https://github.com/exabird/umbrel-exabird-lychee
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-lychee/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Lychee is a free photo-management tool, which runs on your server or web-space. Installing is a matter of seconds. Upload, manage and share photos like from a native application. Lychee comes with everything you need and all your photos are stored securely.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/lychee-icon.png
+developer: Umbrel Community
+support: No support URL provided

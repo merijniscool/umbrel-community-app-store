@@ -1,22 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
+name: ansible-semaphore
 description: Modern UI for Ansible
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
 icon: https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_60,h_60/https://dashboard.snapcraft.io/site_media/appmedia/2020/11/Screenshot_2020-11-21_at_02.05.22.png
-id: exabird-ansible-semaphore
-manifestVersion: 1
-name: Ansible-semaphore
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-ansible-semaphore
-submission: https://github.com/exabird/umbrel-exabird-ansible-semaphore
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-ansible-semaphore/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

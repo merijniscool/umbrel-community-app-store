@@ -1,7 +1,0 @@
-services:
-  chrony ntp:
-    image: cturra/ntp:latest
-    ports:
-    - 123:123/udp
-    volumes: []
-version: '3.3'

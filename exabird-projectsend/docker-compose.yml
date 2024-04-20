@@ -2,8 +2,7 @@ services:
   projectsend:
     image: linuxserver/projectsend:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /data
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/ProjectSend:/data"
+    restart: unless-stopped

@@ -2,7 +2,7 @@ services:
   freshrss:
     image: linuxserver/freshrss:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/freshrss:/config"
+    restart: unless-stopped

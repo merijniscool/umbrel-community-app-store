@@ -1,7 +1,0 @@
-services:
-  cockpit {shmolf}:
-    image: agentejo/cockpit:latest
-    ports:
-    - 8088:80/tcp
-    volumes: []
-version: '3.3'

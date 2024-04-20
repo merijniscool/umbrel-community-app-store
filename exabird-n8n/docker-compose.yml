@@ -1,9 +1,0 @@
-services:
-  n8n:
-    image: n8nio/n8n:latest
-    ports:
-    - 5678:5678/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Config/n8n
-      container: /home/node/.n8n
-version: '3.3'

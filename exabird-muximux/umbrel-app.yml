@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: A lightweight portal to view, manage your HTPC apps without having to
-  run anything more than a PHP enabled webserver. With Muximux you don't need to keep
-  multiple tabs open, or bookmark the URL to all of your apps.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/muximux-icon.png
-id: exabird-muximux
-manifestVersion: 1
 name: muximux
-path: ''
-port: 80/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-muximux
-submission: https://github.com/exabird/umbrel-exabird-muximux
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-muximux/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: A lightweight portal to view, manage your HTPC apps without having to run anything more than a PHP enabled webserver. With Muximux you don't need to keep multiple tabs open, or bookmark the URL to all of your apps.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/muximux-icon.png
+developer: Umbrel Community
+support: No support URL provided

@@ -2,9 +2,7 @@ services:
   sickchill:
     image: linuxserver/sickchill:latest
     ports:
-    - 8081/tcp
+      - "8081:8081/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /tv
-version: '3.3'
+      - "/portainer/Files/AppData/Config/SickChill:/config"
+    restart: unless-stopped

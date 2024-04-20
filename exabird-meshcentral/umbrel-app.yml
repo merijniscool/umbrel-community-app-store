@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: 'MeshCentral is a full computer management web site. With MeshCentral,
-  you can run your own web server to remotely manage and control computers on a local
-  network or anywhere on the internet. '
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: meshcentral
+description: MeshCentral is a full computer management web site. With MeshCentral, you can run your own web server to remotely manage and control computers on a local network or anywhere on the internet. 
 icon: https://repository-images.githubusercontent.com/101663032/a0f76700-4b4f-11eb-981e-ee7eea9fddf2
-id: exabird-meshcentral
-manifestVersion: 1
-name: Meshcentral
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-meshcentral
-submission: https://github.com/exabird/umbrel-exabird-meshcentral
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-meshcentral/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

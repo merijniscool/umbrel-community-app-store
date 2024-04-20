@@ -1,9 +1,0 @@
-services:
-  edgeconnector 840d:
-    image: softingindustrial/edgeconnector-840d
-    ports:
-    - 443/tcp
-    - 8099/tcp
-    - 4897/tcp
-    volumes: []
-version: '3.3'

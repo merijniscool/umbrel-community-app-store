@@ -2,8 +2,7 @@ services:
   cops:
     image: linuxserver/cops:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /books
-    - container: /config
-version: '3.3'
+      - "/portainer/Books:/books"
+    restart: unless-stopped

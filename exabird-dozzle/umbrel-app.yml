@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: "Dozzle is a small lightweight application with a web based interface\
-  \ to monitor Docker logs. It doesn\u2019t store any log files. It is for live monitoring\
-  \ of your container logs only."
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: dozzle
+description: Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only.
 icon: https://dozzle.dev/favicon.ico
-id: exabird-dozzle
-manifestVersion: 1
-name: Dozzle
-path: ''
-port: '8888'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-dozzle
-submission: https://github.com/exabird/umbrel-exabird-dozzle
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-dozzle/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: No support URL provided

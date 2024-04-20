@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Traggo is a tag-based time tracking tool. In Traggo there are no tasks,
-  only tagged time spans.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: traggo
+description: Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.
 icon: https://traggo.net/images/favicon.png
-id: exabird-traggo
-manifestVersion: 1
-name: Traggo
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-traggo
-submission: https://github.com/exabird/umbrel-exabird-traggo
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-traggo/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

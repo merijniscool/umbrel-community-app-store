@@ -2,13 +2,7 @@ services:
   jellyfin:
     image: linuxserver/jellyfin:latest
     ports:
-    - 8096:8096/tcp
-    - 8920:8920/tcp
+      - "8096:8096/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Jellyfin
-      container: /config
-    - bind: /portainer/TV
-      container: /data/tvshows
-    - bind: /portainer/Movies
-      container: /data/movies
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Jellyfin:/config"
+    restart: unless-stopped

@@ -2,8 +2,7 @@ services:
   dozzle:
     image: amir20/dozzle:latest
     ports:
-    - 8888:8080/tcp
+      - "8888:8080/tcp"
     volumes:
-    - bind: /var/run/docker.sock
-      container: /var/run/docker.sock
-version: '3.3'
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    restart: always

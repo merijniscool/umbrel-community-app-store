@@ -1,9 +1,0 @@
-services:
-  searxng:
-    image: searxng/searxng:latest
-    ports:
-    - 9017:8080/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Config/searxng
-      container: /etc/searxng
-version: '3.3'

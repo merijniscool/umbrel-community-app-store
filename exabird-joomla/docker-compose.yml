@@ -1,8 +1,0 @@
-services:
-  joomla:
-    image: joomla:latest
-    ports:
-    - 80/tcp
-    volumes:
-    - container: /var/www/html
-version: '3.3'

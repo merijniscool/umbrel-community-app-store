@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: With watchtower you can update the running version of your containerized
-  app simply by pushing a new image to the Docker Hub or your own image registry.
-  Watchtower will pull down your new image, gracefully shut down your existing container
-  and restart it with the same options that were used when it was deployed initially.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/watchtower.png
-id: exabird-watchtower
-manifestVersion: 1
-name: Watchtower
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-watchtower
-submission: https://github.com/exabird/umbrel-exabird-watchtower
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-watchtower/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: watchtower
+description: With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/watchtower.png
+developer: Umbrel Community
+support: No support URL provided

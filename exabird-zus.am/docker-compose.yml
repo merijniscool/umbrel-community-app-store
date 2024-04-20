@@ -1,9 +1,0 @@
-services:
-  zus.am:
-    image: zusam/zusam
-    ports:
-    - 4180:8080/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Config/Zusam
-      container: /zusam/data
-version: '3.3'

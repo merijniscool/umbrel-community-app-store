@@ -1,9 +1,8 @@
 services:
-  overseerr:
-    image: hotio/overseerr:release
+  Overseerr:
+    image: No image provided
     ports:
-    - 5055:5055/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Overseerr
-      container: /config
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

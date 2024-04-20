@@ -1,9 +1,0 @@
-services:
-  odoo:
-    image: odoo:latest
-    ports:
-    - 8069/tcp
-    volumes:
-    - container: /var/lib/odoo
-    - container: /mnt/extra-addons
-version: '3.3'

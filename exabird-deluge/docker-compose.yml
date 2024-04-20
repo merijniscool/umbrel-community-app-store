@@ -1,8 +1,8 @@
 services:
   deluge:
     image: linuxserver/deluge:latest
-    ports: []
+    ports:
+      - "No ports provided"
     volumes:
-    - container: /config
-    - container: /downloads
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Deluge:/config"
+    restart: unless-stopped

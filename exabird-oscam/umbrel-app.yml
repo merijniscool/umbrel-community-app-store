@@ -1,27 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: OScam is a softcam, software to be used to decrypt digital television
-  channels on a settopbox (receiver), as an alternative for a conditional access module
-  (CAM). OScam is, compared with other softcams (CCcam, mgcamd, etc.), open source.
-  Hence, the name Open Source Conditional Access Module (OScam). OScam is based on
-  the not so well known softcam MpCS. The main features of OSCam are next to its softcam
-  capabilities, that it is able to function as a cardserver.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/oscam.png
-id: exabird-oscam
-manifestVersion: 1
 name: oscam
-path: ''
-port: 8888/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-oscam
-submission: https://github.com/exabird/umbrel-exabird-oscam
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-oscam/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: OScam is a softcam, software to be used to decrypt digital television channels on a settopbox (receiver), as an alternative for a conditional access module (CAM). The main features of OSCam are next to its softcam capabilities, that it is able to function as a cardserver.
+icon: http://i.imgur.com/8LadrLg.png
+developer: Umbrel Community
+support: No support URL provided

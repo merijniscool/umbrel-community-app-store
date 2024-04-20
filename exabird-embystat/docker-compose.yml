@@ -1,9 +1,8 @@
 services:
-  embystat:
+  EmbyStat:
     image: linuxserver/embystat:latest
     ports:
-    - 6555:6555/tcp
+      - "6555:6555/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/EmbyStat
-      container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/EmbyStat:/config"
+    restart: unless-stopped

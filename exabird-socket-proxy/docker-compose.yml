@@ -1,9 +1,0 @@
-services:
-  socket-proxy:
-    image: linuxserver/socket-proxy:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/socket-proxy/config
-      container: /config
-version: '3.3'

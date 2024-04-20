@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Tdarr is a popular conditional transcoding application for processing
-  large (or small) media libraries.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: tdarr
+description: Tdarr is a popular conditional transcoding application for processing large (or small) media libraries.
 icon: https://tdarr.io/static/media/logo3.02a3f4a3.png
-id: exabird-tdarr
-manifestVersion: 1
-name: Tdarr
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-tdarr
-submission: https://github.com/exabird/umbrel-exabird-tdarr
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-tdarr/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

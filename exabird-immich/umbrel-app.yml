@@ -1,22 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
+name: immich
 description: Immich is a high performance self-hosted photo and video backup solution.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
 icon: https://github.com/immich-app/immich/raw/main/design/immich-logo.svg
-id: exabird-immich
-manifestVersion: 1
-name: Immich
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-immich
-submission: https://github.com/exabird/umbrel-exabird-immich
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-immich/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

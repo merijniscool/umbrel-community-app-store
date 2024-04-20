@@ -1,6 +1,0 @@
-services:
-  cloudflare ddns:
-    image: favonia/cloudflare-ddns:latest
-    ports: []
-    volumes: []
-version: '3.3'

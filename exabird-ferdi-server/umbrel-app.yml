@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Ferdi is a messaging browser that allows you to combine your favourite
-  messaging services into one application
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: ferdi-server
+description: Ferdi is a messaging browser that allows you to combine your favourite messaging services into one application
 icon: https://raw.githubusercontent.com/getferdi/server/master/logo.png
-id: exabird-ferdi-server
-manifestVersion: 1
-name: Ferdi Server
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-ferdi-server
-submission: https://github.com/exabird/umbrel-exabird-ferdi-server
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-ferdi-server/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

@@ -2,8 +2,7 @@ services:
   trilium:
     image: zadam/trilium:latest
     ports:
-    - 3388:8080/tcp
+      - "3388:8080/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/trilium-data
-      container: /home/node/trilium-data
-version: '3.3'
+      - "/portainer/Files/AppData/Config/trilium-data:/home/node/trilium-data"
+    restart: unless-stopped

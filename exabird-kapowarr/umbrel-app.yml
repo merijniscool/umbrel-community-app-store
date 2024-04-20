@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Kapowarr is a software to build and manage a comic book library, fitting
-  in the *arr suite of software.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: ''
-id: exabird-kapowarr
-manifestVersion: 1
-name: Kapowarr
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-kapowarr
-submission: https://github.com/exabird/umbrel-exabird-kapowarr
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-kapowarr/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: kapowarr
+description: Kapowarr is a software to build and manage a comic book library, fitting in the *arr suite of software.
+icon: 
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

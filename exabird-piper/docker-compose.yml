@@ -1,9 +1,0 @@
-services:
-  piper:
-    image: linuxserver/piper:latest
-    ports:
-    - 10200:10200/tcp
-    volumes:
-    - bind: /volume1/docker/piper/config
-      container: /config
-version: '3.3'

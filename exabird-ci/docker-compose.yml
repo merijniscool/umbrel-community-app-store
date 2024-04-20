@@ -1,9 +1,0 @@
-services:
-  ci:
-    image: linuxserver/ci:latest
-    ports:
-    - 80:80/tcp
-    volumes:
-    - bind: /volume1/docker/ci/config
-      container: /config
-version: '3.3'

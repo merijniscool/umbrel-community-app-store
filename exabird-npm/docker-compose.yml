@@ -1,0 +1,8 @@
+services:
+  npm:
+    image: jc21/nginx-proxy-manager
+    ports:
+      - "8000:80/tcp"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

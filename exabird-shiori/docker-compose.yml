@@ -1,9 +1,8 @@
 services:
   shiori:
-    image: radhifadlillah/shiori:latest
+    image: No image provided
     ports:
-    - 8080/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Shiori
-      container: /srv/shiori
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

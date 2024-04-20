@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Lighting fast with a slick design, Kavita is a rocket fueled self-hosted
-  digital library which supports a vast array of file formats. Install to start reading
-  and share your server with your friends.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: kavita
+description: Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.
 icon: https://www.kavitareader.com/img/logo.png
-id: exabird-kavita
-manifestVersion: 1
-name: Kavita
-path: ''
-port: 5000/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-kavita
-submission: https://github.com/exabird/umbrel-exabird-kavita
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-kavita/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: No support URL provided

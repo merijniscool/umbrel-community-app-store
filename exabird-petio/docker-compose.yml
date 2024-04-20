@@ -1,6 +1,8 @@
 services:
-  petio:
-    image: example/example:latest
-    ports: []
-    volumes: []
-version: '3.3'
+  Petio:
+    image: No image provided
+    ports:
+      - "No ports provided"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

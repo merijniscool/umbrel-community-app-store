@@ -1,0 +1,8 @@
+services:
+  plexrequests:
+    image: linuxserver/plexrequests:latest
+    ports:
+      - "3000:3000/tcp"
+    volumes:
+      - "/portainer/Files/AppData/Config/PlexRequests:/config"
+    restart: unless-stopped

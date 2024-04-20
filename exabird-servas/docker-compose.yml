@@ -1,7 +1,8 @@
 services:
-  servas:
-    image: example/example:latest
+  Servas:
+    image: No image provided
     ports:
-    - 8456:80/tcp
-    volumes: []
-version: '3.3'
+      - "8456:80/tcp"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

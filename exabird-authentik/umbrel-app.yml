@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Authentik is an open-source Identity Provider focused on flexibility
-  and versatility
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://d33wubrfki0l68.cloudfront.net/228cc7243c167d0ad9f9adf2129d69b787129ccb/73d36/img/icon_left_brand.svg
-id: exabird-authentik
-manifestVersion: 1
 name: Authentik
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-authentik
-submission: https://github.com/exabird/umbrel-exabird-authentik
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-authentik/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Authentik is an open-source Identity Provider focused on flexibility and versatility
+icon: https://d33wubrfki0l68.cloudfront.net/228cc7243c167d0ad9f9adf2129d69b787129ccb/73d36/img/icon_left_brand.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

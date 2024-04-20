@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Cryptofolio is an open-source, and self-hosted solution for tracking
-  your cryptocurrency holdings. It features a web interface, an Android mobile app,
-  and a cross-platform desktop application for Windows, macOS, and Linux.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: cryptofolio
+description: Cryptofolio is an open-source, and self-hosted solution for tracking your cryptocurrency holdings. It features a web interface, an Android mobile app, and a cross-platform desktop application for Windows, macOS, and Linux.
 icon: https://i.imgur.com/5v8lzea.png
-id: exabird-cryptofolio
-manifestVersion: 1
-name: Cryptofolio
-path: ''
-port: '7280'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-cryptofolio
-submission: https://github.com/exabird/umbrel-exabird-cryptofolio
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-cryptofolio/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: No support URL provided

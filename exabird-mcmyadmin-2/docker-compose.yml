@@ -1,9 +1,0 @@
-services:
-  mcmyadmin 2:
-    image: linuxserver/mcmyadmin2:latest
-    ports:
-    - 8080:8080/tcp
-    - 25565:25565/tcp
-    volumes:
-    - container: /minecraft
-version: '3.3'

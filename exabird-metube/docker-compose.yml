@@ -1,9 +1,0 @@
-services:
-  metube:
-    image: alexta69/metube:latest
-    ports:
-    - 8081:8081/tcp
-    volumes:
-    - bind: /portainer/Downloads
-      container: /downloads
-version: '3.3'

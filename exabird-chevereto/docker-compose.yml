@@ -1,8 +1,8 @@
 services:
-  chevereto:
+  Chevereto:
     image: nmtan/chevereto:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /var/www/html/images
-version: '3.3'
+      - "/path/to/bind:/var/www/html/images"
+    restart: unless-stopped

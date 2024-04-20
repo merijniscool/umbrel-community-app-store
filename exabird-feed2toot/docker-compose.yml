@@ -1,8 +1,0 @@
-services:
-  feed2toot:
-    image: linuxserver/feed2toot:latest
-    ports: []
-    volumes:
-    - bind: /volume1/docker/feed2toot/config
-      container: /config
-version: '3.3'

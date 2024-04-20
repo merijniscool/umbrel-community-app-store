@@ -1,9 +1,0 @@
-services:
-  mozilla syncserver:
-    image: mozilla/syncserver:latest
-    ports:
-    - 5000/tcp
-    volumes:
-    - bind: /opt/mediadepot/apps/syncserver
-      container: /data
-version: '3.3'

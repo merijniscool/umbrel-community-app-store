@@ -1,9 +1,0 @@
-services:
-  passky server:
-    image: rabbitcompany/passky-server:latest
-    ports:
-    - 8080:80/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Passky-Server
-      container: /var/www/html/databases
-version: '3.3'

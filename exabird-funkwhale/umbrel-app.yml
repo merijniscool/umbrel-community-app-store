@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: A social platform to enjoy and share music.Funkwhale is a community-driven
-  project that lets you listen and share music and audio within a decentralized, open
-  network.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: funkwhale
+description: A social platform to enjoy and share music.Funkwhale is a community-driven project that lets you listen and share music and audio within a decentralized, open network.
 icon: https://funkwhale.audio/img/with-text-500.4aff7861.png
-id: exabird-funkwhale
-manifestVersion: 1
-name: Funkwhale
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-funkwhale
-submission: https://github.com/exabird/umbrel-exabird-funkwhale
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-funkwhale/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

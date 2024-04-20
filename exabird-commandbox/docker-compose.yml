@@ -1,8 +1,0 @@
-services:
-  commandbox:
-    image: ortussolutions/commandbox:latest
-    ports:
-    - 8080/tcp
-    - 8443/tcp
-    volumes: []
-version: '3.3'

@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Koillection is a self-hosted collection manager created to keep track
-  of physical (mostly) collections of any kind like books, DVDs, stamps, games..
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://user-images.githubusercontent.com/20560781/80213166-0e560e00-8639-11ea-944e-4f79fdbcef55.png
-id: exabird-koillection
-manifestVersion: 1
 name: Koillection
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-koillection
-submission: https://github.com/exabird/umbrel-exabird-koillection
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-koillection/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Koillection is a self-hosted collection manager created to keep track of physical (mostly) collections of any kind like books, DVDs, stamps, games..
+icon: https://user-images.githubusercontent.com/20560781/80213166-0e560e00-8639-11ea-944e-4f79fdbcef55.png
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

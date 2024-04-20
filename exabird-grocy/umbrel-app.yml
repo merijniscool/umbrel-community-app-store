@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Grocy is an ERP system for your kitchen! Cut down on food waste, and
-  manage your chores with this brilliant utility.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/grocy_logo.png
-id: exabird-grocy
-manifestVersion: 1
-name: Grocy
-path: ''
-port: 80/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-grocy
-submission: https://github.com/exabird/umbrel-exabird-grocy
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-grocy/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: grocy
+description: Grocy is an ERP system for your kitchen! Cut down on food waste, and manage your chores with this brilliant utility.
+icon: https://grocy.info/img/grocy_logo.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

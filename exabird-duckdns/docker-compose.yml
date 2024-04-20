@@ -1,6 +1,8 @@
 services:
   duckdns:
     image: linuxserver/duckdns:latest
-    ports: []
-    volumes: []
-version: '3.3'
+    ports:
+      - "No ports provided"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: unless-stopped

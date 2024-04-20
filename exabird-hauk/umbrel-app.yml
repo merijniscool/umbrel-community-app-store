@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Hauk is a fully open source, self-hosted location sharing service. Install
-  the backend code on a PHP-compatible web server, install the companion app on your
-  phone, and you're good to go!
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: hauk
+description: Hauk is a fully open source, self-hosted location sharing service. Install the backend code on a PHP-compatible web server, install the companion app on your phone, and you're good to go!
 icon: https://github.com/bilde2910/Hauk/raw/master/frontend/assets/logo.svg
-id: exabird-hauk
-manifestVersion: 1
-name: Hauk
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-hauk
-submission: https://github.com/exabird/umbrel-exabird-hauk
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-hauk/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

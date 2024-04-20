@@ -1,22 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
+name: autobrr
 description: Autobrr is the modern download automation tool for torrents.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
 icon: https://autobrr.com/img/logo.png
-id: exabird-autobrr
-manifestVersion: 1
-name: Autobrr
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-autobrr
-submission: https://github.com/exabird/umbrel-exabird-autobrr
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-autobrr/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

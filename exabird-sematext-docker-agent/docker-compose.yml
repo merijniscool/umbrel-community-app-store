@@ -1,8 +1,0 @@
-services:
-  sematext docker agent:
-    image: sematext/sematext-agent-docker:latest
-    ports: []
-    volumes:
-    - bind: /var/run/docker.sock
-      container: /var/run/docker.sock
-version: '3.3'

@@ -1,6 +1,0 @@
-services:
-  tosibox lock for container:
-    image: example/example:latest
-    ports: []
-    volumes: []
-version: '3.3'

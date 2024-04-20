@@ -2,8 +2,7 @@ services:
   kodi-headless:
     image: linuxserver/kodi-headless:latest
     ports:
-    - 8080/tcp
-    - 9777/udp
+      - "8080/tcp"
     volumes:
-    - container: /config/.kodi
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Kodi:/config"
+    restart: unless-stopped

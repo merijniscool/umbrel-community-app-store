@@ -1,22 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
+name: codex
 description: Codex is a web server comic book browser and reader.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
 icon: https://github.com/ajslater/codex/raw/main/codex/static_src/img/logo.svg
-id: exabird-codex
-manifestVersion: 1
-name: Codex
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-codex
-submission: https://github.com/exabird/umbrel-exabird-codex
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-codex/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Tabby is an infinitely customizable cross-platform terminal app for local
-  shells, serial, SSH and Telnet connections.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://tabby.sh/32bf32ff6c87e8d18932.svg
-id: exabird-tabby
-manifestVersion: 1
 name: Tabby
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-tabby
-submission: https://github.com/exabird/umbrel-exabird-tabby
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-tabby/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections.
+icon: https://tabby.sh/32bf32ff6c87e8d18932.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

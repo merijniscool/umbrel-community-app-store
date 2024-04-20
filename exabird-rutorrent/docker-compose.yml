@@ -2,10 +2,7 @@ services:
   rutorrent:
     image: linuxserver/rutorrent:latest
     ports:
-    - 80/tcp
-    - 51413/tcp
-    - 6881/udp
+      - "80/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-version: '3.3'
+      - "/portainer/Files/AppData/Config/ruTorrent:/config"
+    restart: unless-stopped

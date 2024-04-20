@@ -2,7 +2,7 @@ services:
   codiad:
     image: linuxserver/codiad:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Codiad:/config"
+    restart: unless-stopped

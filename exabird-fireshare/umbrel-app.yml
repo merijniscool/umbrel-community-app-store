@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: 'Fireshare: Share your game clips, videos, or other media via unique
-  links.'
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: fireshare
+description: Fireshare: Share your game clips, videos, or other media via unique links.
 icon: https://github.com/ShaneIsrael/fireshare/raw/main/app/client/src/assets/logo.png
-id: exabird-fireshare
-manifestVersion: 1
-name: Fireshare
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-fireshare
-submission: https://github.com/exabird/umbrel-exabird-fireshare
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-fireshare/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

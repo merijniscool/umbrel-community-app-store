@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Create your own platform on the web. Ghost is a powerful app for new-media
-  creators to publish, share, and grow a business around their content. It comes with
-  modern tools to build a website, publish content, send newsletters & offer paid
-  subscriptions to members.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: ghost
+description: Create your own platform on the web. Ghost is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & offer paid subscriptions to members.
 icon: https://ghost.org/images/logos/logo-black-1.webp
-id: exabird-ghost
-manifestVersion: 1
-name: Ghost
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-ghost
-submission: https://github.com/exabird/umbrel-exabird-ghost
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-ghost/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

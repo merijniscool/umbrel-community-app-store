@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: ChiefOnboarding is a free and open source employee onboarding platform.
-  You can onboarding new hires through Slack or the dashboard.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: chiefonboarding
+description: ChiefOnboarding is a free and open source employee onboarding platform. You can onboarding new hires through Slack or the dashboard.
 icon: https://chiefonboarding.com/wp-content/uploads/2022/07/ChiefOnBoarding-768x138.png
-id: exabird-chiefonboarding
-manifestVersion: 1
-name: Chiefonboarding
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-chiefonboarding
-submission: https://github.com/exabird/umbrel-exabird-chiefonboarding
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-chiefonboarding/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

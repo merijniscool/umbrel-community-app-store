@@ -1,8 +1,8 @@
 services:
   ombi:
-    image: linuxserver/ombi:latest
+    image: No image provided
     ports:
-    - 3579/tcp
+      - "No ports provided"
     volumes:
-    - container: /config
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

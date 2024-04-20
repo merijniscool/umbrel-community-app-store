@@ -1,8 +1,0 @@
-services:
-  organizr:
-    image: organizrtools/organizr:latest
-    ports:
-    - 80/tcp
-    volumes:
-    - container: /config
-version: '3.3'

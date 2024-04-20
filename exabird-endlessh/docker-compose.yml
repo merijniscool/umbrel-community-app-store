@@ -1,9 +1,0 @@
-services:
-  endlessh:
-    image: linuxserver/endlessh:latest
-    ports:
-    - 22:2222/tcp
-    volumes:
-    - bind: /volume1/docker/endlessh/config
-      container: /config
-version: '3.3'

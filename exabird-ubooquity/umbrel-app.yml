@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Ubooquity is a free, lightweight and easy-to-use home server for your
-  comics and ebooks. Use it to access your files from anywhere, with a tablet, an
-  e-reader, a phone or a computer.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/ubooquity-icon.png
-id: exabird-ubooquity
-manifestVersion: 1
 name: ubooquity
-path: ''
-port: 2202/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-ubooquity
-submission: https://github.com/exabird/umbrel-exabird-ubooquity
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-ubooquity/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Ubooquity is a free, lightweight and easy-to-use home server for your comics and ebooks. Use it to access your files from anywhere, with a tablet, an e-reader, a phone or a computer.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/ubooquity-icon.png
+developer: Umbrel Community
+support: No support URL provided

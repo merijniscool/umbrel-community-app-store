@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Organizr allows you to setup Tabs that will be loaded all in one webpage.
-  You can then work on your server with ease.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/organizr-icon.png
-id: exabird-organizr-v2
-manifestVersion: 1
-name: Organizr v2
-path: ''
-port: '7171'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-organizr-v2
-submission: https://github.com/exabird/umbrel-exabird-organizr-v2
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-organizr-v2/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+name: organizr-v2
+description: Organizr allows you to setup Tabs that will be loaded all in one webpage. You can then work on your server with ease.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/organizr-icon.png
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

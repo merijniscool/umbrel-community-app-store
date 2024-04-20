@@ -1,7 +1,8 @@
 services:
   freeboard:
-    image: example/example:latest
+    image: No image provided
     ports:
-    - 8000:80/tcp
-    volumes: []
-version: '3.3'
+      - "8000:80/tcp"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

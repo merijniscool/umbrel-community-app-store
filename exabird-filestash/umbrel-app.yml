@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: A Dropbox-like file manager that let you manage your data anywhere it
-  is located.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: filestash
+description: A Dropbox-like file manager that let you manage your data anywhere it is located.
 icon: https://downloads.filestash.app/brand/logo_white.svg
-id: exabird-filestash
-manifestVersion: 1
-name: Filestash
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-filestash
-submission: https://github.com/exabird/umbrel-exabird-filestash
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-filestash/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

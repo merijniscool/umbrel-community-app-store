@@ -1,10 +1,8 @@
 services:
   medusa:
-    image: linuxserver/medusa:latest
+    image: No image provided
     ports:
-    - 8081/tcp
+      - "No ports provided"
     volumes:
-    - container: /config
-    - container: /tv
-    - container: /downloads
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

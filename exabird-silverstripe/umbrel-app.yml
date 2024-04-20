@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Silverstripe CMS is a free and open source Content Management System
-  (CMS) and Framework for creating and maintaining websites and web applications.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: silverstripe
+description: Silverstripe CMS is a free and open source Content Management System (CMS) and Framework for creating and maintaining websites and web applications.
 icon: https://github.com/brettt89/silverstripe-docker/raw/master/docs/logo.png
-id: exabird-silverstripe
-manifestVersion: 1
-name: Silverstripe
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-silverstripe
-submission: https://github.com/exabird/umbrel-exabird-silverstripe
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-silverstripe/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

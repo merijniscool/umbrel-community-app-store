@@ -2,8 +2,7 @@ services:
   reactive-resume:
     image: amruthpillai/reactive-resume:latest
     ports:
-    - 80/tcp
+      - "80/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/ReactiveResume
-      container: /usr/src/app
-version: '3.3'
+      - "/portainer/Files/AppData/Config/ReactiveResume:/usr/src/app"
+    restart: unless-stopped

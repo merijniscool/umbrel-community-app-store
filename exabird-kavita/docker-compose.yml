@@ -2,10 +2,7 @@ services:
   kavita:
     image: kizaing/kavita:latest
     ports:
-    - 5000/tcp
+      - "5000/tcp"
     volumes:
-    - bind: /portainer/Books
-      container: /books
-    - bind: /portainer/Files/AppData/Config/kavita
-      container: /config
-version: '3.3'
+      - "/portainer/Books:/books"
+    restart: unless-stopped

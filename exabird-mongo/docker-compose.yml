@@ -1,8 +1,0 @@
-services:
-  mongo:
-    image: mongo:latest
-    ports:
-    - 27017/tcp
-    volumes:
-    - container: /data/db
-version: '3.3'

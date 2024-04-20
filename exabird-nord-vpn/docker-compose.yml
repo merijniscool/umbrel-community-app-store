@@ -1,7 +1,0 @@
-services:
-  nord-vpn:
-    image: azinchen/nordvpn:latest
-    ports:
-    - 8080:80/tcp
-    volumes: []
-version: '3.3'

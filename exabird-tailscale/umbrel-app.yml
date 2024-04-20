@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Tailscale lets you easily manage access to private resources, quickly
-  SSH into devices on your network, and work securely from anywhere in the world.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: tailscale
+description: Tailscale lets you easily manage access to private resources, quickly SSH into devices on your network, and work securely from anywhere in the world.
 icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/tailscale.jpg
-id: exabird-tailscale
-manifestVersion: 1
-name: Tailscale
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-tailscale
-submission: https://github.com/exabird/umbrel-exabird-tailscale
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-tailscale/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

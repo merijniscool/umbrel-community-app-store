@@ -2,15 +2,7 @@ services:
   murmur:
     image: goofball222/murmur:latest
     ports:
-    - 64738:64738/tcp
-    - 64738:64738/udp
+      - "64738:64738/tcp"
     volumes:
-    - bind: /etc/localtime:ro
-      container: /etc/localtime
-    - bind: /portainer/Files/Config/Murmur
-      container: /opt/murmur/config
-    - bind: /portainer/Files/Murmur/data
-      container: /opt/murmur/data
-    - bind: /portainer/Files/Murmur/log
-      container: /opt/murmur/log
-version: '3.3'
+      - "/etc/localtime:ro:/etc/localtime"
+    restart: unless-stopped

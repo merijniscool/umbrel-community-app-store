@@ -2,9 +2,7 @@ services:
   beets:
     image: linuxserver/beets:latest
     ports:
-    - 8337/tcp
+      - "8337:8337/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-    - container: /music
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Beets:/config"
+    restart: unless-stopped

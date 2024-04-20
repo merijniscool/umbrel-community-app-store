@@ -1,25 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Plex organizes video, music and photos from personal media libraries
-  and streams them to smart TVs, streaming boxes and mobile devices. This container
-  is packaged as a standalone Plex Media Server. has always been a top priority. Straightforward
-  design and bulk actions mean getting things done faster.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/plex-icon.png
-id: exabird-plex
-manifestVersion: 1
 name: plex
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-plex
-submission: https://github.com/exabird/umbrel-exabird-plex
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-plex/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Your favorite movies, TV, music, web shows, podcasts, and more, all streamed to your favorite screens.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/plex-icon.png
+developer: Umbrel Community
+support: No support URL provided

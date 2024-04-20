@@ -1,8 +1,0 @@
-services:
-  postgresql:
-    image: postgres:latest
-    ports:
-    - 5432/tcp
-    volumes:
-    - container: /var/lib/postgresql/data
-version: '3.3'

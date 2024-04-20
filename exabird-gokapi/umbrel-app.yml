@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: "Gokapi is a lightweight server to share files, which expire after a\
-  \ set amount of downloads or days. It is similar to the discontinued\_Firefox Send,\
-  \ with the difference that only the admin is allowed to upload files"
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
+name: gokapi
+description: Gokapi is a lightweight server to share files, which expire after a set amount of downloads or days. It is similar to the discontinued Firefox Send, with the difference that only the admin is allowed to upload files
 icon: https://noted.lol/content/images/2023/02/gokapi-self-hosted-main.png
-id: exabird-gokapi
-manifestVersion: 1
-name: Gokapi
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-gokapi
-submission: https://github.com/exabird/umbrel-exabird-gokapi
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-gokapi/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

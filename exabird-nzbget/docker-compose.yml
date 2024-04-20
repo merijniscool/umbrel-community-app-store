@@ -2,8 +2,7 @@ services:
   nzbget:
     image: linuxserver/nzbget:latest
     ports:
-    - 6789/tcp
+      - "6789:6789/tcp"
     volumes:
-    - container: /config
-    - container: /downloads
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Nzbget:/config"
+    restart: unless-stopped

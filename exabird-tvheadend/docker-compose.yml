@@ -2,9 +2,7 @@ services:
   tvheadend:
     image: linuxserver/tvheadend:latest
     ports:
-    - 9981/tcp
-    - 9982/tcp
+      - "9981:9981/tcp"
     volumes:
-    - container: /config
-    - container: /recordings
-version: '3.3'
+      - "/portainer/Files/AppData/Config/TVHeadend:/config"
+    restart: unless-stopped

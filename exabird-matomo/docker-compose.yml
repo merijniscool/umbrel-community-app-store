@@ -1,7 +1,8 @@
 services:
   matomo:
-    image: example/example:latest
+    image: No image provided
     ports:
-    - 8282:80/tcp
-    volumes: []
-version: '3.3'
+      - "8282:80/tcp"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

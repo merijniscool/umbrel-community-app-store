@@ -1,11 +1,8 @@
 services:
-  syncthing:
-    image: linuxserver/syncthing:latest
+  Syncthing:
+    image: No image provided
     ports:
-    - 8384/tcp
-    - 21027/udp
-    - 22000/tcp
+      - "No ports provided"
     volumes:
-    - container: /config
-    - container: /sync
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

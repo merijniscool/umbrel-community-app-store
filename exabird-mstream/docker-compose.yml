@@ -2,10 +2,7 @@ services:
   mstream:
     image: linuxserver/mstream:latest
     ports:
-    - 3000:3000/tcp
+      - "3000:3000/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Mstream
-      container: /config
-    - bind: /portainer/Downloads
-      container: /music
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Mstream:/config"
+    restart: unless-stopped

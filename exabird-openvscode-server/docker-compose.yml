@@ -1,9 +1,0 @@
-services:
-  openvscode-server:
-    image: linuxserver/openvscode-server:latest
-    ports:
-    - 3000:3000/tcp
-    volumes:
-    - bind: /volume1/docker/openvscode-server/config
-      container: /config
-version: '3.3'

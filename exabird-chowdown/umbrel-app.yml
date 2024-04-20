@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: ave recipes in seconds with plain text formatting and create beatiful
-  recipe pages with automated ease.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Images/chowdown.png
-id: exabird-chowdown
-manifestVersion: 1
 name: Chowdown
-path: ''
-port: '4000'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-chowdown
-submission: https://github.com/exabird/umbrel-exabird-chowdown
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-chowdown/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Have recipes in seconds with plain text formatting and create beatiful recipe pages with automated ease.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/chowdown.png
+developer: Umbrel Community
+support: No support URL provided

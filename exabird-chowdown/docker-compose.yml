@@ -1,9 +1,8 @@
 services:
-  chowdown:
+  Chowdown:
     image: gregyankovoy/chowdown:latest
     ports:
-    - 4000:4000/tcp
+      - "4000:4000/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Chowdown
-      container: /config
-version: '3.3'
+      - "/portainer/Files/AppData/Config/Chowdown:/config"
+    restart: unless-stopped

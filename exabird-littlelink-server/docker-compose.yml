@@ -1,7 +1,8 @@
 services:
-  littlelink server:
-    image: example/example:latest
+  littlelink-server:
+    image: No image provided
     ports:
-    - 3000:3000/tcp
-    volumes: []
-version: '3.3'
+      - "3000:3000/tcp"
+    volumes:
+      - "/path/to/bind:/path/in/container"
+    restart: always

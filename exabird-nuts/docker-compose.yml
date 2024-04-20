@@ -2,8 +2,7 @@ services:
   nuts:
     image: upshift/nut-upsd
     ports:
-    - 3493:3493/tcp
+      - "3493:3493/tcp"
     volumes:
-    - bind: /portainer/Files/AppData/Config/nuts
-      container: /app
-version: '3.3'
+      - "/portainer/Files/AppData/Config/nuts:/app"
+    restart: always

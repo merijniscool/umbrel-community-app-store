@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: Jackett works as a proxy server it translates queries from apps like
-  Sonarr etc into tracker-site-specific http queries and parses the html response
-  sending results back to the requesting software.[
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/thesugarat/portainer_templates-1/master/Images/jacket-icon.png
-id: exabird-jackett
-manifestVersion: 1
 name: jackett
-path: ''
-port: 9117/tcp
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-jackett
-submission: https://github.com/exabird/umbrel-exabird-jackett
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-jackett/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.
+icon: https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/jacket-icon.png
+developer: Umbrel Community
+support: No support URL provided

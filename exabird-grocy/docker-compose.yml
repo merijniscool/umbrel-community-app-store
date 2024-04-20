@@ -1,9 +1,8 @@
 services:
   grocy:
-    image: linuxserver/grocy:latest
+    image: No image provided
     ports:
-    - 80/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Grocy
-      container: /config
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

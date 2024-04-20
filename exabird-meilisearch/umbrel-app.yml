@@ -1,24 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: "Meilisearch is a\_**RESTful search API**. It aims to be a\_**ready-to-go\
-  \ solution**\_for everyone who wants a\_**fast and relevant search experience**\_\
-  for their end-users"
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://docs.meilisearch.com/logo.svg
-id: exabird-meilisearch
-manifestVersion: 1
 name: Meilisearch
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-meilisearch
-submission: https://github.com/exabird/umbrel-exabird-meilisearch
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-meilisearch/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: Meilisearch is a **RESTful search API**. It aims to be a **ready-to-go solution** for everyone who wants a **fast and relevant search experience** for their end-users
+icon: https://docs.meilisearch.com/logo.svg
+developer: Umbrel Community
+support: https://github.com/xneo1/portainer_templates

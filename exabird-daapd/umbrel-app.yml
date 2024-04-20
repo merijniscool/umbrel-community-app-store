@@ -1,23 +1,5 @@
-category: Utility
-defaultPassword: ''
-defaultUsername: ''
-dependencies: []
-description: DAAP (iTunes) media server with support for AirPlay devices, Apple Remote
-  (and compatibles), MPD and internet radio.
-developer: Community Developer
-gallery:
-- https://example.com/path/to/screenshot1.png
-icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png
-id: exabird-daapd
-manifestVersion: 1
 name: daapd
-path: ''
-port: '80'
-releaseNotes: Initial release of this app on Umbrel.
-repo: https://github.com/exabird/umbrel-exabird-daapd
-submission: https://github.com/exabird/umbrel-exabird-daapd
-submitter: Community Submitter
-support: https://github.com/exabird/umbrel-exabird-daapd/issues
-tagline: A generic application deployed via Umbrel
-version: '1.0'
-website: https://example.com
+description: DAAP (iTunes) media server with support for AirPlay devices, Apple Remote (and compatibles), MPD and internet radio.
+icon: https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/daapd-icon.png
+developer: Umbrel Community
+support: No support URL provided

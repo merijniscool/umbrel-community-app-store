@@ -1,9 +1,0 @@
-services:
-  davinci postgres server:
-    image: postgres:13
-    ports:
-    - 5432:5432/tcp
-    volumes:
-    - bind: /portainer/Files/AppData/Config/DavinciServer/
-      container: /var/lib/postgresql/data
-version: '3.3'

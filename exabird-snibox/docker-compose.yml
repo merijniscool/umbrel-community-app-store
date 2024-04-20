@@ -1,9 +1,8 @@
 services:
-  snibox:
-    image: snowmean/snibox-sqlite:latest
+  Snibox:
+    image: No image provided
     ports:
-    - 3010:3000/tcp
+      - "No ports provided"
     volumes:
-    - bind: /portainer/Files/AppData/Config/Snibox
-      container: /app/db/database
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always

@@ -1,12 +1,8 @@
 services:
   airsonic:
-    image: linuxserver/airsonic:latest
+    image: No image provided
     ports:
-    - 4040/tcp
+      - "No ports provided"
     volumes:
-    - container: /music
-    - container: /playlists
-    - container: /podcasts
-    - container: /media
-    - container: /config
-version: '3.3'
+      - "/path/to/bind:/path/in/container"
+    restart: always
